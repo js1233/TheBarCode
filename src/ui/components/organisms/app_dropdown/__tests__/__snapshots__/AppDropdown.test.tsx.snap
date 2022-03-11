@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "borderRadius": 5,
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "#F5F5F5",
+      },
+      undefined,
+    ]
+  }
+>
+  <Modal
+    animationType="none"
+    hardwareAccelerated={false}
+    testID="dropdown-modal"
+    transparent={true}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(90,94,94,0.7)",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 0,
+            "height": "auto",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 10,
+                "justifyContent": "center",
+                "marginHorizontal": 25,
+                "marginVertical": 50,
+              },
+              Object {
+                "backgroundColor": "#F5F5F5",
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "marginTop": 18,
+              }
+            }
+          >
+            <RCTScrollView
+              ListFooterComponent={
+                Object {
+                  "$$typeof": Symbol(react.memo),
+                  "compare": null,
+                  "type": [Function],
+                }
+              }
+              data={
+                Array [
+                  Object {
+                    "text": "male",
+                    "value": "Male",
+                  },
+                  Object {
+                    "text": "female",
+                    "value": "Female",
+                  },
+                  Object {
+                    "text": "other",
+                    "value": "Other",
+                  },
+                ]
+              }
+              getItem={[Function]}
+              getItemCount={[Function]}
+              initialNumToRender={3}
+              keyExtractor={[Function]}
+              onContentSizeChange={[Function]}
+              onEndReachedThreshold={1}
+              onLayout={[Function]}
+              onMomentumScrollBegin={[Function]}
+              onMomentumScrollEnd={[Function]}
+              onScroll={[Function]}
+              onScrollBeginDrag={[Function]}
+              onScrollEndDrag={[Function]}
+              refreshing={false}
+              removeClippedSubviews={true}
+              renderItem={[Function]}
+              scrollEventThrottle={50}
+              showsVerticalScrollIndicator={false}
+              stickyHeaderIndices={Array []}
+              viewabilityConfigCallbackPairs={Array []}
+            >
+              <View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Array [
+                        Object {
+                          "opacity": 1,
+                        },
+                      ]
+                    }
+                    testID="dropdown-item-click"
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "ProximaNova-Regular",
+                          },
+                          Object {
+                            "color": "#171717",
+                            "fontSize": 27,
+                          },
+                          Object {
+                            "lineHeight": 45,
+                          },
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "fontSize": 32,
+                              "paddingVertical": 10,
+                            },
+                            Object {
+                              "color": "#404040",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      Male
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Array [
+                        Object {
+                          "opacity": 1,
+                        },
+                      ]
+                    }
+                    testID="dropdown-item-click"
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "ProximaNova-Regular",
+                          },
+                          Object {
+                            "color": "#171717",
+                            "fontSize": 27,
+                          },
+                          Object {
+                            "lineHeight": 45,
+                          },
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "fontSize": 32,
+                              "paddingVertical": 10,
+                            },
+                            Object {
+                              "color": "#404040",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      Female
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                  style={null}
+                >
+                  <View
+                    accessible={true}
+                    collapsable={false}
+                    focusable={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onResponderGrant={[Function]}
+                    onResponderMove={[Function]}
+                    onResponderRelease={[Function]}
+                    onResponderTerminate={[Function]}
+                    onResponderTerminationRequest={[Function]}
+                    onStartShouldSetResponder={[Function]}
+                    style={
+                      Array [
+                        Object {
+                          "opacity": 1,
+                        },
+                      ]
+                    }
+                    testID="dropdown-item-click"
+                  >
+                    <Text
+                      numberOfLines={1}
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "ProximaNova-Regular",
+                          },
+                          Object {
+                            "color": "#171717",
+                            "fontSize": 27,
+                          },
+                          Object {
+                            "lineHeight": 45,
+                          },
+                          Array [
+                            Object {
+                              "alignSelf": "center",
+                              "fontSize": 32,
+                              "paddingVertical": 10,
+                            },
+                            Object {
+                              "color": "#404040",
+                            },
+                          ],
+                        ]
+                      }
+                    >
+                      Other
+                    </Text>
+                  </View>
+                </View>
+                <View
+                  onLayout={[Function]}
+                />
+              </View>
+            </RCTScrollView>
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 10,
+                "justifyContent": "center",
+                "left": 25,
+                "padding": 10,
+                "position": "absolute",
+                "top": 50,
+              },
+              Object {
+                "backgroundColor": "#F5F5F5",
+              },
+            ]
+          }
+          testID="close-modal"
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "borderRadius": 50,
+                  "borderWidth": 1.5,
+                  "height": 25,
+                  "justifyContent": "center",
+                  "width": 25,
+                },
+                Object {
+                  "backgroundColor": "#E5E5E5",
+                  "borderColor": "#D4D4D4",
+                },
+              ]
+            }
+          >
+            <SvgMock
+              fill="#404040"
+              height={15}
+              width={15}
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    testID="dropdown-click"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "height": 44,
+            "justifyContent": "space-between",
+            "paddingHorizontal": 12,
+            "paddingVertical": 10,
+          },
+        ]
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontFamily": "ProximaNova-Regular",
+            },
+            Object {
+              "color": "#171717",
+              "fontSize": 27,
+            },
+            Object {
+              "lineHeight": 42,
+            },
+            Array [
+              Object {
+                "includeFontPadding": false,
+              },
+              Object {
+                "color": "#737373",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Select Gender
+      </Text>
+      <SvgMock
+        fill="#FFFFFF"
+        height={15}
+        style={
+          Array [
+            Object {
+              "aspectRatio": 1,
+              "resizeMode": "contain",
+              "width": 12,
+            },
+            undefined,
+          ]
+        }
+        width={15}
+      />
+    </View>
+  </View>
+</View>
+`;

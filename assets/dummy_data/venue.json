@@ -1,0 +1,393 @@
+{
+  "id": 230,
+  "user_id": 321,
+  "title": "Android Bar",
+  "description": "Refreshing you to join \n\n\nssssssssssssssssssssss",
+  "manager_name": "Abdul Rehman",
+  "contact_number": "+44 7911 123456",
+  "contact_email": "anis.ghazi@startrum.com",
+  "address": "12\n\n\nLondon",
+  "website": "https://www.google.com",
+  "latitude": 24.8686625,
+  "longitude": 67.0825734,
+  "images": [
+    {
+      "name": "9GuUlserEF3mHxnF55pegJazOexVUItiiwVXc7FV.png",
+      "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/9GuUlserEF3mHxnF55pegJazOexVUItiiwVXc7FV.png"
+    }
+  ],
+  "video_name": null,
+  "status": "active",
+  "code": null,
+  "business_timing": null,
+  "close_time": null,
+  "opening_time": null,
+  "instagram_profile_url": "null",
+  "twitter_profile_url": "null",
+  "google_page_url": "null",
+  "facebook_page_url": "null",
+  "created_at": {
+    "date": "2020-10-14 12:32:19.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/London"
+  },
+  "updated_at": {
+    "date": "2021-10-05 14:00:02.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/London"
+  },
+  "deleted_at": null,
+  "is_unlimited_redemption": false,
+  "is_voucher_on": 1,
+  "type": "standard",
+  "send_notification": 1,
+  "is_payment_app": true,
+  "delivery_distance": 3,
+  "is_full_day_delivery": true,
+  "is_delivery_disable": false,
+  "custom_delivery_amount": null,
+  "min_delivery_charges": null,
+  "max_delivery_charges": null,
+  "global_delivery_charges": 20,
+  "is_global_delivery": true,
+  "delivery_condition": "delivery at your door steps \n\n\n333",
+  "is_reservation": true,
+  "reservation_url": "https://www.cygnismedia.com/",
+  "is_epos": 0,
+  "client_id": null,
+  "client_secret": null,
+  "location_id": null,
+  "token": null,
+  "epos_name": "barcode",
+  "channel_link_id": null,
+  "is_epos_verify": 0,
+  "account_id": null,
+  "expire_token": null,
+  "deliver_by": "barcode",
+  "post_code": null,
+  "city": null,
+  "worldpay_merchant_id": "d76880e2-3940-4718-a643-1ae9395ffe3d",
+  "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+  "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+  "worldpay_environment": "test",
+  "is_worldpay_verify": 1,
+  "square_app_id": "sandbox-sq0idb-pb9LiBBq20hVo9pfOPaWKg",
+  "logo": null,
+  "colour": "#ff0000",
+  "venue_cover_image": "DeZT6lxijlnrPcZUktld9wWN3cEcXvRcJkdGqO0t.jpeg",
+  "is_in_app_payment_service_verified": 1,
+  "payment_sense_jwt_token": null,
+  "payment_gateway_type": "worldpay",
+  "payment_gateway_username": null,
+  "payment_gateway_password": null,
+  "country": "United Kingdom (UK)",
+  "currency_code": "GBP",
+  "currency_symbol": "£",
+  "orkestro_type": null,
+  "orkestro_api_key": null,
+  "dine_in": true,
+  "collection": true,
+  "take_away": true,
+  "delivery": true,
+  "collection_note": "Collection Note",
+  "is_allergen": true,
+  "allergen_description": "There \nare \nsome \nallergens \nhere.\nThere \nare some \nallergens here.\nThere\n are some \nallergens here.\nThere \nare some \nallergens here.\nThere\n allergens here.\nThere\n are\n some \nallergens\n here.\nThere \nare\n some \nallergens\n here.\nThere \nare \nsome \nallergens \nhere.\nThere \nare some \nallergens \nhere.",
+  "unread_notification_count": 0,
+  "encodedId": "lXjeJm86Ag",
+  "formatted_updated_at": "Oct 5, 21 14:00 pm",
+  "venue_cover_image_url": "https://thebarcode-dev.cygnis.dev/storage/venue_cover_image/DeZT6lxijlnrPcZUktld9wWN3cEcXvRcJkdGqO0t.jpeg",
+  "video_url": null,
+  "video": null,
+  "distance": 0,
+  "can_redeem_offer": true,
+  "last_reload_time": null,
+  "deals": 0,
+  "deals_exclusive": 0,
+  "deals_banner_ads": 0,
+  "live_offers": 0,
+  "is_user_favourite": false,
+  "delivery_timings": [
+    {
+      "id": 2248,
+      "day": "Monday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2249,
+      "day": "Tuesday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2250,
+      "day": "Wednesday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2251,
+      "day": "Thursday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2252,
+      "day": "Friday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2253,
+      "day": "Saturday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "id": 2254,
+      "day": "Sunday",
+      "from": "00:00:00",
+      "to": "23:59:59",
+      "status": "on",
+      "from_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "to_modify": {
+        "date": "2021-11-03 23:59:59.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    }
+  ],
+  "region": {
+    "country": "United Kingdom (UK)",
+    "currency_code": "GBP",
+    "currency_symbol": "£"
+  },
+  "can_unlimited_redeem": false,
+  "credit": 16,
+  "standard_offer": {
+    "id": 1239,
+    "establishment_id": 230,
+    "tier_id": 3,
+    "day": "Wednesday",
+    "value": 25,
+    "title": "25%",
+    "expires_at": null,
+    "created_at": "2020-10-14 12:32:20",
+    "updated_at": "2020-10-14 12:32:20"
+  },
+  "today_delivery_timings": {
+    "day": "Wednesday",
+    "from": "00:00:00",
+    "to": "23:59:59",
+    "status": "on"
+  },
+  "establishment_timings": {
+    "is_bar_open": true,
+    "opening_time": "00:00:00",
+    "closed_time": "00:00:00",
+    "status": "open",
+    "day": "Wednesday",
+    "opening_time_modify": {
+      "date": "2021-11-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/London"
+    },
+    "closed_time_modify": {
+      "date": "2021-11-03 00:00:00.000000",
+      "timezone_type": 3,
+      "timezone": "Europe/London"
+    },
+    "is_unlimited_redemption": false
+  },
+  "week_establishment_timings": [
+    {
+      "day": "Monday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Tuesday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Wednesday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Thursday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Friday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Saturday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    },
+    {
+      "day": "Sunday",
+      "status": "open",
+      "opening_time": "00:00:00",
+      "closed_time": "00:00:00",
+      "is_unlimited_redemption": false,
+      "opening_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      },
+      "closed_time_modify": {
+        "date": "2021-11-03 00:00:00.000000",
+        "timezone_type": 3,
+        "timezone": "Europe/London"
+      }
+    }
+  ]
+}

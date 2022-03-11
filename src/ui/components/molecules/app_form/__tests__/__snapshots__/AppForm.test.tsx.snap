@@ -1,0 +1,315 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`rendering... renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "fontFamily": "ProximaNova-Bold",
+          },
+          Object {
+            "color": "#171717",
+            "fontSize": 27,
+          },
+          Object {
+            "lineHeight": 38,
+          },
+          Array [
+            Object {
+              "fontSize": 27,
+              "marginBottom": 6,
+            },
+            Object {
+              "color": "#171717",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      EMAIL
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "stretch",
+          "borderRadius": 6,
+          "borderStyle": "solid",
+          "color": "#000000",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "height": 44,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#D4D4D4",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      editable={true}
+      keyboardType="email-address"
+      multiline={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Enter your email address"
+      placeholderTextColor="#134E4A"
+      secureTextEntry={false}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "ProximaNova-Regular",
+            "fontSize": 25,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+          },
+          undefined,
+          Object {},
+          null,
+        ]
+      }
+      testID="emailField"
+      textAlignVertical="center"
+      textContentType="emailAddress"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 8,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+      }
+    }
+  >
+    <Text
+      numberOfLines={1}
+      style={
+        Array [
+          Object {
+            "fontFamily": "ProximaNova-Bold",
+          },
+          Object {
+            "color": "#171717",
+            "fontSize": 27,
+          },
+          Object {
+            "lineHeight": 38,
+          },
+          Array [
+            Object {
+              "fontSize": 27,
+              "marginBottom": 6,
+            },
+            Object {
+              "color": "#171717",
+            },
+            undefined,
+          ],
+        ]
+      }
+    >
+      PASSWORD
+    </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "stretch",
+          "borderRadius": 6,
+          "borderStyle": "solid",
+          "color": "#000000",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Array [
+          Object {
+            "height": 44,
+          },
+          Object {
+            "backgroundColor": "#FFFFFF",
+            "borderColor": "#D4D4D4",
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    <TextInput
+      editable={true}
+      multiline={false}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      placeholder="Enter your password"
+      placeholderTextColor="#134E4A"
+      secureTextEntry={true}
+      style={
+        Array [
+          Object {
+            "color": "#000000",
+            "flex": 1,
+            "fontFamily": "ProximaNova-Regular",
+            "fontSize": 25,
+            "paddingHorizontal": 12,
+            "textAlignVertical": "center",
+          },
+          undefined,
+          Object {},
+          null,
+        ]
+      }
+      testID="passwordField"
+      textAlignVertical="center"
+      textContentType="password"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "padding": 8,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "alignSelf": "center",
+        "backgroundColor": "#0F766E",
+        "borderRadius": 25,
+        "elevation": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "maxHeight": 55,
+        "minHeight": 44,
+        "opacity": 1,
+        "shadowColor": "#FFFFFF",
+        "shadowOffset": Object {
+          "height": 3,
+          "width": 0,
+        },
+        "shadowOpacity": 0.15,
+        "shadowRadius": 3,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "padding": 8,
+        }
+      }
+      testID="button-container"
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+            Object {
+              "flex": 1,
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "ProximaNova-Regular",
+              },
+              Object {
+                "color": "#171717",
+                "fontSize": 27,
+              },
+              Object {
+                "lineHeight": 42,
+              },
+              Array [
+                Object {
+                  "color": "#FFFFFF",
+                  "fontSize": 28,
+                  "overflow": "hidden",
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          Submit
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

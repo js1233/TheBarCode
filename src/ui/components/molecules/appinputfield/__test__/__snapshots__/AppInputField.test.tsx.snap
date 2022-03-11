@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "borderRadius": 6,
+        "borderStyle": "solid",
+        "color": "#000000",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    editable={true}
+    multiline={false}
+    onChangeText={[Function]}
+    placeholderTextColor="#134E4A"
+    secureTextEntry={false}
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "flex": 1,
+          "fontFamily": "ProximaNova-Regular",
+          "fontSize": 25,
+          "paddingHorizontal": 12,
+          "textAlignVertical": "center",
+        },
+        undefined,
+        Object {},
+        null,
+      ]
+    }
+    testID="InputField"
+    textAlignVertical="center"
+  />
+</View>
+`;

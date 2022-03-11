@@ -1,0 +1,9 @@
+enum EOutOfCredit {
+  ABLE_TO_RELOAD,
+  NOT_ABLE_TO_RELOAD,
+  TIMER_EXPIRED,
+  UNLIMITED_RELOAD_INVITE,
+  UNLIMITED_RELOAD
+}
+
+export default EOutOfCredit;

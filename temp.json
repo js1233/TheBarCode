@@ -1,0 +1,2388 @@
+{
+  "duration": 2778,
+  "problem": null,
+  "originalError": null,
+  "ok": true,
+  "status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=Z91oyjIZGxm7DwqwWHZhze3y6PkgcLGG9A6bPfJzPvRofX5TL3QECMTFOkJuVh%2BrS%2Bu5UQvWQetE3jRjBKXZNUNA62Z5R8xzqgboH62Zwbl5mgMAdLtK7LlGOKkSTcg%2FZnJh17GlnX%2BcrjsZ\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+    "cache-control": "no-cache, private",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "strict-transport-security": "max-age=0; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "content-encoding": "br",
+    "cf-cache-status": "DYNAMIC",
+    "date": "Thu, 10 Mar 2022 04:51:43 GMT",
+    "cf-ray": "6e996fc70df70197-SIN",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding"
+  },
+  "config": {
+    "url": "five-a-day",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json",
+      "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjExZDI3NmNmYzYwMDlhN2M2OTAxMWU4ZmUzNjkyNTEzN2EzOTVjNWZhOTY5M2VkMGMwOTI4ZDE3YzgwN2M2YzYwZGNhZmMyMmUxZWE0N2YzIn0.eyJhdWQiOiIxMDU2OSIsImp0aSI6IjExZDI3NmNmYzYwMDlhN2M2OTAxMWU4ZmUzNjkyNTEzN2EzOTVjNWZhOTY5M2VkMGMwOTI4ZDE3YzgwN2M2YzYwZGNhZmMyMmUxZWE0N2YzIiwiaWF0IjoxNjQ2ODg3NzY4LCJuYmYiOjE2NDY4ODc3NjgsImV4cCI6MTY3ODQyMzc2OCwic3ViIjoiMzcxIiwic2NvcGVzIjpbInVzZXIuc2hvdyIsInVwZGF0ZS5yZWZlcnJhbC5jb2RlIiwiaW50ZXJlc3QuaW5kZXgiLCJ1c2VyLnVwZGF0ZSIsInVwZGF0ZS51c2VyLmludGVyZXN0cyIsInVwZGF0ZS51c2VyLmZhdm9yaXRlLmVzdGFibGlzaG1lbnQiLCJ1c2VyLWZhdm9yaXRlLWVzdGFibGlzaG1lbnQuaW5kZXgiLCJvZmZlci5pbmRleCIsIm9mZmVyLnNob3ciLCJlc3RhYmxpc2htZW50LmluZGV4IiwiZXN0YWJsaXNobWVudC5zaG93Iiwic3Vic2NyaXB0aW9uLnN0b3JlIiwib2ZmZXItcmVkZWVtLnN0b3JlIiwiZml2ZS1hLWRheS5pbmRleCIsInZpZXcuc3RvcmUiLCJzZW5kLWludml0ZS5zdG9yZSIsInVwZGF0ZS5sb2NhdGlvbiIsInVzZXIuY3VzdG9tZXIuYWN0aXZhdGlvbiIsInVzZXIucmVzZW5kLmVtYWlsIiwic3Vic2NyaXB0aW9uLmRldGFpbCIsInNoYXJlLnN0b3JlIiwic2hhcmUuaW5kZXgiLCJzaGFyZS5kZXN0cm95IiwiZXN0YWJsaXNobWVudC1ldmVudC5pbmRleCIsImVzdGFibGlzaG1lbnQtbWVudS5pbmRleCIsImNhdGVnb3J5LmluZGV4Iiwic2VhcmNoLmFsbCIsInVwZGF0ZS51c2VyLmZhdm9yaXRlLm9mZmVyIiwidXNlci1mYXZvcml0ZS1vZmZlci5pbmRleCIsInVwZGF0ZS51c2VyLmJvb2ttYXJrLmV2ZW50IiwidXNlci1ib29rbWFyay1ldmVudC5pbmRleCIsImh5cGVybGluay1ldmVudC5pbmRleCIsImV2ZW50LXNoYXJlLnN0b3JlIiwiZXZlbnQtc2hhcmUuaW5kZXgiLCJldmVudC1zaGFyZS5kZXN0cm95IiwiZXN0YWJsaXNobWVudC1zZWdtZW50LmluZGV4IiwiZXN0YWJsaXNobWVudC1zdWJzY3JpcHRpb24uc3RvcmUiLCJlc3RhYmxpc2htZW50LXN1YnNjcmlwdGlvbi5kZXRhaWwiLCJhcHAtc2hhcmVkLnN0b3JlIiwiYXBwLXNoYXJlZC5pbmRleCIsInZvdWNoZXIuaW5kZXgiLCJ1c2VyLXZvdWNoZXIuaW5kZXgiLCJ1c2VyLW5vdGlmaWNhdGlvbi5pbmRleCIsInVzZXIubm90LnJlYWQubm90aWZpY2F0aW9uIiwidXNlci1ub3RpZmljYXRpb24udXBkYXRlIiwib3JkZXIuaW5kZXgiLCJvcmRlci5zdG9yZSIsIm9yZGVyLnNob3ciLCJjYXJ0LmluZGV4IiwiY2FydC5zdG9yZSIsImNhcnQuc3luYyIsInBheW1lbnQuc3RvcmUiLCJhZGRyZXNzLmluZGV4IiwiYWRkcmVzcy5zdG9yZSIsImFkZHJlc3MudXBkYXRlIiwiYWRkcmVzcy5kZXN0cm95Iiwidm91Y2hlci5kZXRhaWwiLCJvZmZlcnMuZGV0YWlsIiwiY2FydC5jb3VudCIsImNhcmQuaW5kZXgiLCJjYXJkLnN0b3JlIiwiY2FyZC5kZXN0cm95IiwiYXV0aG9yaXNlLm9yZGVyIiwibW9kaWZpZXItZ3JvdXAuaW5kZXgiLCJtb2RpZmllci1ncm91cC5zdG9yZSIsIm1vZGlmaWVyLWdyb3VwLmRlc3Ryb3kiLCJtb2RpZmllci5pbmRleCIsIm1vZGlmaWVyLnN0b3JlIiwibW9kaWZpZXIuZGVzdHJveSIsIndlYi5wYXltZW50IiwiZ2V0LmNvcmRpbmF0ZXNiYXIiLCJwYXltZW50LnNlbnNlIiwicGF5bWVudC5zZW5zZS5jb21wbGV0ZSIsInBheW1lbnQudXBkYXRlIiwiZXN0YWJsaXNobWVudC1tZW51LnNob3ciLCJyZS5vcmRlciIsImNhbmNlbC5vcmRlciIsImZ1bm5lbC5pbmRleCIsImZ1bm5lbC5zaG93Il19.aZ0EG6U6NV6XGnEwWgipe15P7cyAynl6UyPwAo8oVQuMCLf9V5HR9MW72s8b_u0bJCsCnzagbKEcnY_JhphVz1s5cMMfuz83JllcnLpkjRXpRriSNZRTV6xSW47BGMcAysGPp2RaTXMbW7ed1ob1MSPM1BrP117DxvfnbiliSG0-nrFVEfmNrPljoHiQVDzZN7LzrPEe0zKOIZPZne-uZ0pH_W4FtKj6GNIwIc96pfIYWHdTjZ-93Uzhri8zN7cLt7wjIUHkWbl-Zc3kdzncmBkGVFdOKTHaCfdwNusj5_ROl4xlzk2pLnJnPGqE_I1dhyk9OlEbkataveV-WiXtzJZr6TgFguEjPP-HW7H3ly9-yVm1hxz2u-MZc572CennFbiGYzDNVxIEB6vkk1SuG16y_n2AjEvgUUXifOhkz2FXcWrNAmsLkaGMGkLZjWTjUA-foTH13NYDfyAd_Zy7E_aoRikpNmPJkcy6GeK945XOt0ZY9HpAUqLwxOW1bYLBo3zjy5QWtb5K24F-tdhGP8KWWM48dXOndDOEKw0OMq438q72VSGJeFfPKaSBS6t7kAB8e0NInAdPTjjEmC-5dBbORS4zyXDild3UwLl3OHpiGaHqDv1gr-WeGzbdgz5fioHlqjGh2fepQPql_Oo_r7TVYw2MVZOSyuZb9HrKxi0"
+    },
+    "params": { "pagination": false },
+    "baseURL": "https://thebarcode-dev.cygnis.dev/api/",
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    }
+  },
+  "data": {
+    "response": {
+      "data": [
+        {
+          "id": 516,
+          "establishment_id": 305,
+          "offer_type_id": 2,
+          "title": "soups",
+          "sub_title": "vegetable",
+          "image": "9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "description": "Seasonal Vegetable",
+          "start_date": "2021-06-08",
+          "end_date": "2022-05-27",
+          "start_time": "12:00:00",
+          "end_time": "20:06:22",
+          "status": 1,
+          "is_notified": 0,
+          "distance": 10000,
+          "created_at": {
+            "date": "2021-06-08 12:15:52.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "updated_at": {
+            "date": "2021-11-08 07:47:10.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "deleted_at": null,
+          "is_date_show": true,
+          "is_scheduler": 0,
+          "is_monday": 0,
+          "is_tuesday": 0,
+          "is_wednesday": 0,
+          "is_thursday": 0,
+          "is_friday": 0,
+          "is_saturday": 0,
+          "is_sunday": 0,
+          "notification_time": null,
+          "is_menu_associated": false,
+          "menu_id": null,
+          "should_show_time": true,
+          "image_url": "https://thebarcode-dev.cygnis.dev/storage/offer/orignal/9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "status_text": "Active",
+          "offer_type": {
+            "id": 2,
+            "title": "5 A Day",
+            "created_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null
+          },
+          "establishments": {
+            "id": 305,
+            "user_id": 1157,
+            "title": "MF Foods",
+            "description": "The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.",
+            "manager_name": "Athar",
+            "contact_number": "",
+            "contact_email": "mffoods@gmail.com",
+            "address": "karachi pakistan",
+            "website": null,
+            "latitude": 24.8686495,
+            "longitude": 67.082604,
+            "images": [
+              {
+                "name": "WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg"
+              },
+              {
+                "name": "Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg"
+              }
+            ],
+            "video_name": null,
+            "status": "active",
+            "code": null,
+            "business_timing": null,
+            "close_time": null,
+            "opening_time": null,
+            "instagram_profile_url": null,
+            "twitter_profile_url": null,
+            "google_page_url": null,
+            "facebook_page_url": null,
+            "created_at": {
+              "date": "2021-06-07 14:10:27.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-08 07:09:28.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null,
+            "is_unlimited_redemption": true,
+            "is_voucher_on": 1,
+            "type": "standard",
+            "send_notification": 1,
+            "is_payment_app": false,
+            "delivery_distance": 5000,
+            "is_full_day_delivery": true,
+            "is_delivery_disable": false,
+            "custom_delivery_amount": 10,
+            "min_delivery_charges": 0,
+            "max_delivery_charges": 5,
+            "global_delivery_charges": 5,
+            "is_global_delivery": false,
+            "delivery_condition": null,
+            "is_reservation": true,
+            "reservation_url": "https://www.google.com",
+            "is_epos": 0,
+            "client_id": null,
+            "client_secret": null,
+            "location_id": null,
+            "token": null,
+            "epos_name": "barcode",
+            "channel_link_id": null,
+            "is_epos_verify": 0,
+            "account_id": null,
+            "expire_token": null,
+            "deliver_by": "barcode",
+            "post_code": "L1 8JQ",
+            "city": "LONDON",
+            "worldpay_merchant_id": "d76880e2-3940-4718-a643-1ae9395ffe3d",
+            "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+            "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+            "worldpay_environment": "test",
+            "is_worldpay_verify": 1,
+            "square_app_id": null,
+            "logo": null,
+            "colour": "#ff9500",
+            "venue_cover_image": null,
+            "is_in_app_payment_service_verified": 1,
+            "payment_sense_jwt_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vZS50ZXN0LmNvbm5lY3QucGF5bWVudHNlbnNlLmNsb3VkIiwiZXhwIjoyMzc0MDUxOTAzLCJpYXQiOjE2MTcxODc5MDMsInN1YiI6ImNvbm5lY3QtZS1kZXZAYXBwc3BvdC5nc2VydmljZWFjY291bnQuY29tIiwiYXBpS2V5IjoiNGUwZjdkZTMtN2E3Yi00NDIxLTg1YTYtNmQyMGFmYjUxMDI2IiwiZW1haWwiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSJ9.QNQYQL1fle8dOD_FwuqArLucXG78Vt5L-5e9ZOuLgeo9tHK7qiTznuTW_HeCmHJ-szM09GuvSef05-ZtULuJ8sGJpI8lx-MYH8CRjnwAdFve-H6LTTC_wGfQ5l5oaWGifd0y4-POQLOIYG-8HTHTcnLZTE50paz_DZrpwtCfKzVleBeSoksjdu-SFqjJk1c3oI1Y-o0IoM9dacChyqJsM67huicCWsDXIiyyGUHkru84zLlBP75gouH_eZNuUostsBGxB6__4ZjZdPIM_lMXkvBtunkLWgJn877lZMGeYJ8dRW8yg45GM_slXyihuul8PajmGXw4CLIiOAELntEtgg",
+            "payment_gateway_type": "payment_sense",
+            "payment_gateway_username": "Cygnis-6629159",
+            "payment_gateway_password": "YCMPF6S69V",
+            "country": "United Kingdom (UK)",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "orkestro_type": null,
+            "orkestro_api_key": null,
+            "dine_in": true,
+            "collection": false,
+            "take_away": true,
+            "delivery": false,
+            "collection_note": "Please, collect your food in 45 minutes",
+            "is_allergen": true,
+            "allergen_description": "test",
+            "is_apple_pay_enabled": false,
+            "is_external_url": false,
+            "is_oapa": false,
+            "external_url_td": "https://www.google.com/search?q=features&source=hp&ei=q5LWYZ34FY7MaI2Xi9gH&iflsig=ALs-wAMAAAAAYdagu9uj8Y6_RbN-3_WSrxryetspRInE&ved=0ahUKEwjd-fz7xZz1AhUOJhoKHY3LAnsQ4dUDCAc&uact=5&oq=features&gs_lcp=Cgdnd3Mtd2l6EAMyCggAEIAEEEYQ_wEyCAgAEIAEELEDMggIABCABBCxA",
+            "allergen_icons": ["brazil-nut", "peanut", "soy"],
+            "encodedId": "roaLAx8d3w",
+            "unread_notification_count": 0,
+            "formatted_updated_at": "Mar 8, 22 07:09 am",
+            "video_url": null,
+            "video": null,
+            "distance": 3.51,
+            "can_redeem_offer": false,
+            "last_reload_time": null,
+            "deals": 0,
+            "deals_exclusive": 0,
+            "deals_banner_ads": 0,
+            "live_offers": 0,
+            "is_user_favourite": false,
+            "delivery_timings": [
+              {
+                "id": 2738,
+                "day": "Monday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2739,
+                "day": "Tuesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2740,
+                "day": "Wednesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2741,
+                "day": "Thursday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2742,
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2743,
+                "day": "Saturday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2744,
+                "day": "Sunday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ],
+            "region": {
+              "country": "United Kingdom (UK)",
+              "currency_code": "GBP",
+              "currency_symbol": "£"
+            },
+            "can_unlimited_redeem": false,
+            "credit": 0,
+            "standard_offer": {
+              "id": 1732,
+              "establishment_id": 305,
+              "tier_id": 3,
+              "day": "Wednesday",
+              "value": 25,
+              "title": "25%",
+              "expires_at": null,
+              "created_at": "2021-06-07 14:10:27",
+              "updated_at": "2021-06-07 14:10:27"
+            },
+            "today_delivery_timings": {
+              "day": "Wednesday",
+              "from": "00:00:00",
+              "to": "23:59:59",
+              "status": "on"
+            },
+            "establishment_timings": {
+              "is_bar_open": true,
+              "opening_time": "00:00:00",
+              "closed_time": "23:00:00",
+              "status": "open",
+              "day": "Wednesday",
+              "opening_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "closed_time_modify": {
+                "date": "2022-03-10 23:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "is_unlimited_redemption": true
+            },
+            "week_establishment_timings": [
+              {
+                "day": "Monday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Tuesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Wednesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Thursday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Friday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Saturday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Sunday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ]
+          },
+          "start_date_time": "2021-06-08 12:00:00",
+          "end_date_time": "2022-05-27 20:06:22",
+          "can_share": false,
+          "is_user_favourite": false,
+          "is_voucher": false
+        },
+        {
+          "id": 575,
+          "establishment_id": 328,
+          "offer_type_id": 2,
+          "title": "Drink In Bottles or Can",
+          "sub_title": "For Takeaway price",
+          "image": "WhIeybWp3xBeNXlZMjrsCY34nR6gZDozODz6M939.jpeg",
+          "description": "Any Packaged beer or cider available to Drink for Take Out price!",
+          "start_date": "2021-10-22",
+          "end_date": "2022-04-21",
+          "start_time": "11:35:00",
+          "end_time": "22:50:36",
+          "status": 1,
+          "is_notified": 0,
+          "distance": 10000,
+          "created_at": {
+            "date": "2021-10-22 12:53:31.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "updated_at": {
+            "date": "2022-02-03 11:29:11.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "deleted_at": null,
+          "is_date_show": true,
+          "is_scheduler": 0,
+          "is_monday": 0,
+          "is_tuesday": 0,
+          "is_wednesday": 0,
+          "is_thursday": 0,
+          "is_friday": 0,
+          "is_saturday": 0,
+          "is_sunday": 0,
+          "notification_time": null,
+          "is_menu_associated": false,
+          "menu_id": null,
+          "should_show_time": true,
+          "image_url": "https://thebarcode-dev.cygnis.dev/storage/offer/orignal/WhIeybWp3xBeNXlZMjrsCY34nR6gZDozODz6M939.jpeg",
+          "status_text": "Active",
+          "offer_type": {
+            "id": 2,
+            "title": "5 A Day",
+            "created_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null
+          },
+          "establishments": {
+            "id": 328,
+            "user_id": 1490,
+            "title": "Kingston",
+            "description": "Kingston Hotel",
+            "manager_name": "William",
+            "contact_number": "7763872786757",
+            "contact_email": "ftma@live.com",
+            "address": "Unnamed Road, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh, Pakistan",
+            "website": "https://www.new.com",
+            "latitude": 24.868712,
+            "longitude": 67.082357,
+            "images": [
+              {
+                "name": "SX1MKg99kKl3Y1GCQ4yKr8zINOIMR18mPgdXG8gB.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/SX1MKg99kKl3Y1GCQ4yKr8zINOIMR18mPgdXG8gB.jpeg"
+              },
+              {
+                "name": "PAS1s7IB8BC56Ytl88LIS77B8A4hlrwl6bXi5xLT.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/PAS1s7IB8BC56Ytl88LIS77B8A4hlrwl6bXi5xLT.jpeg"
+              },
+              {
+                "name": "JF4ddVA6bv7G9QNRtDlZPjUY05VcEr8917iXKpb3.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/JF4ddVA6bv7G9QNRtDlZPjUY05VcEr8917iXKpb3.jpeg"
+              }
+            ],
+            "video_name": "kzQLg5BzvVb5LjJBx94N",
+            "status": "active",
+            "code": null,
+            "business_timing": null,
+            "close_time": null,
+            "opening_time": null,
+            "instagram_profile_url": null,
+            "twitter_profile_url": null,
+            "google_page_url": null,
+            "facebook_page_url": null,
+            "created_at": {
+              "date": "2021-08-17 06:19:07.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-04 07:54:14.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null,
+            "is_unlimited_redemption": false,
+            "is_voucher_on": 1,
+            "type": "exclusive",
+            "send_notification": 1,
+            "is_payment_app": true,
+            "delivery_distance": null,
+            "is_full_day_delivery": true,
+            "is_delivery_disable": false,
+            "custom_delivery_amount": null,
+            "min_delivery_charges": null,
+            "max_delivery_charges": null,
+            "global_delivery_charges": null,
+            "is_global_delivery": true,
+            "delivery_condition": null,
+            "is_reservation": false,
+            "reservation_url": null,
+            "is_epos": 0,
+            "client_id": null,
+            "client_secret": null,
+            "location_id": null,
+            "token": null,
+            "epos_name": "barcode",
+            "channel_link_id": null,
+            "is_epos_verify": 0,
+            "account_id": null,
+            "expire_token": null,
+            "deliver_by": "barcode",
+            "post_code": null,
+            "city": null,
+            "worldpay_merchant_id": "D76880e2-3940-4718-a643-1ae9395ffe3d",
+            "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+            "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+            "worldpay_environment": "test",
+            "is_worldpay_verify": 1,
+            "square_app_id": null,
+            "logo": "mULyFE8oARsbDScZtshy8hRkxAJwRAuessXaPpVz.jpeg",
+            "colour": "#af7612",
+            "venue_cover_image": "RhubmLH3oNhZ2MkT6xKhr9UeTNKcgdgUy1btBmzM.jpeg",
+            "is_in_app_payment_service_verified": 0,
+            "payment_sense_jwt_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vZS50ZXN0LmNvbm5lY3QucGF5bWVudHNlbnNlLmNsb3VkIiwiZXhwIjoyMzc0MDUxOTAzLCJpYXQiOjE2MTcxODc5MDMsInN1YiI6ImNvbm5lY3QtZS1kZXZAYXBwc3BvdC5nc2VydmljZWFjY291bnQuY29tIiwiYXBpS2V5IjoiNGUwZjdkZTMtN2E3Yi00NDIxLTg1YTYtNmQyMGFmYjUxMDI2IiwiZW1haWwiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSJ9.QNQYQL1fle8dOD_FwuqArLucXG78Vt5L-5e9ZOuLgeo9tHK7qiTznuTW_HeCmHJ-szM09GuvSef05-ZtULuJ8sGJpI8lx-MYH8CRjnwAdFve-H6LTTC_wGfQ5l5oaWGifd0y4-POQLOIYG-8HTHTcnLZTE50paz_DZrpwtCfKzVleBeSoksjdu-SFqjJk1c3oI1Y-o0IoM9dacChyqJsM67huicCWsDXIiyyGUHkru84zLlBP75gouH_eZNuUostsBGxB6__4ZjZdPIM_lMXkvBtunkLWgJn877lZMGeYJ8dRW8yg45GM_slXyihuul8PajmGXw4CLIiOAELntEtgg",
+            "payment_gateway_type": "payment_sense",
+            "payment_gateway_username": "Cygnis-6629159",
+            "payment_gateway_password": "YCMPF6S69V",
+            "country": "United Kingdom (UK)",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "orkestro_type": null,
+            "orkestro_api_key": null,
+            "dine_in": true,
+            "collection": false,
+            "take_away": false,
+            "delivery": false,
+            "collection_note": "this more informal model is where guests line up this more informal model is where guests line up to",
+            "is_allergen": true,
+            "allergen_description": "The following card numbers are to be used with your Global Payments test account",
+            "is_apple_pay_enabled": false,
+            "is_external_url": false,
+            "external_url": "https://www.google.com/",
+            "is_oapa": false,
+            "allergen_icons": [],
+            "encodedId": "pP9635GdKV",
+            "unread_notification_count": 0,
+            "formatted_updated_at": "Mar 4, 22 07:54 am",
+            "logo_url": "https://thebarcode-dev.cygnis.dev/storage/logo/mULyFE8oARsbDScZtshy8hRkxAJwRAuessXaPpVz.jpeg",
+            "venue_cover_image_url": "https://thebarcode-dev.cygnis.dev/storage/venue_cover_image/RhubmLH3oNhZ2MkT6xKhr9UeTNKcgdgUy1btBmzM.jpeg",
+            "video_url": "https://thebarcode-dev.cygnis.dev/storage/establishment/thumbnail/kzQLg5BzvVb5LjJBx94N",
+            "video": {
+              "name": "kzQLg5BzvVb5LjJBx94N.mp4",
+              "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/video/kzQLg5BzvVb5LjJBx94N.mp4"
+            },
+            "distance": 3.52,
+            "can_redeem_offer": true,
+            "last_reload_time": null,
+            "deals": 0,
+            "deals_exclusive": 0,
+            "deals_banner_ads": 0,
+            "live_offers": 0,
+            "is_user_favourite": false,
+            "delivery_timings": [
+              {
+                "id": 2899,
+                "day": "Monday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2900,
+                "day": "Tuesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2901,
+                "day": "Wednesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2902,
+                "day": "Thursday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2903,
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2904,
+                "day": "Saturday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2905,
+                "day": "Sunday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ],
+            "region": {
+              "country": "United Kingdom (UK)",
+              "currency_code": "GBP",
+              "currency_symbol": "£"
+            },
+            "can_unlimited_redeem": false,
+            "credit": 0,
+            "standard_offer": {
+              "id": 1893,
+              "establishment_id": 328,
+              "tier_id": 3,
+              "day": "Wednesday",
+              "value": 25,
+              "title": "25%",
+              "expires_at": null,
+              "created_at": "2021-08-17 06:19:07",
+              "updated_at": "2021-08-17 06:19:07"
+            },
+            "today_delivery_timings": {
+              "day": "Wednesday",
+              "from": "00:00:00",
+              "to": "23:59:59",
+              "status": "on"
+            },
+            "establishment_timings": {
+              "is_bar_open": true,
+              "opening_time": "00:00:00",
+              "closed_time": "00:00:00",
+              "status": "open",
+              "day": "Wednesday",
+              "opening_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "closed_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "is_unlimited_redemption": false
+            },
+            "week_establishment_timings": [
+              {
+                "day": "Monday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Tuesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Wednesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Thursday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Friday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Saturday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Sunday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ]
+          },
+          "start_date_time": "2021-10-22 11:35:00",
+          "end_date_time": "2022-04-21 22:50:36",
+          "can_share": false,
+          "is_user_favourite": false,
+          "is_voucher": false
+        },
+        {
+          "id": 516,
+          "establishment_id": 305,
+          "offer_type_id": 2,
+          "title": "soups",
+          "sub_title": "vegetable",
+          "image": "9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "description": "Seasonal Vegetable",
+          "start_date": "2021-06-08",
+          "end_date": "2022-05-27",
+          "start_time": "12:00:00",
+          "end_time": "20:06:22",
+          "status": 1,
+          "is_notified": 0,
+          "distance": 10000,
+          "created_at": {
+            "date": "2021-06-08 12:15:52.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "updated_at": {
+            "date": "2021-11-08 07:47:10.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "deleted_at": null,
+          "is_date_show": true,
+          "is_scheduler": 0,
+          "is_monday": 0,
+          "is_tuesday": 0,
+          "is_wednesday": 0,
+          "is_thursday": 0,
+          "is_friday": 0,
+          "is_saturday": 0,
+          "is_sunday": 0,
+          "notification_time": null,
+          "is_menu_associated": false,
+          "menu_id": null,
+          "should_show_time": true,
+          "image_url": "https://thebarcode-dev.cygnis.dev/storage/offer/orignal/9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "status_text": "Active",
+          "offer_type": {
+            "id": 2,
+            "title": "5 A Day",
+            "created_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null
+          },
+          "establishments": {
+            "id": 305,
+            "user_id": 1157,
+            "title": "MF Foods",
+            "description": "The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.",
+            "manager_name": "Athar",
+            "contact_number": "",
+            "contact_email": "mffoods@gmail.com",
+            "address": "karachi pakistan",
+            "website": null,
+            "latitude": 24.8686495,
+            "longitude": 67.082604,
+            "images": [
+              {
+                "name": "WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg"
+              },
+              {
+                "name": "Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg"
+              }
+            ],
+            "video_name": null,
+            "status": "active",
+            "code": null,
+            "business_timing": null,
+            "close_time": null,
+            "opening_time": null,
+            "instagram_profile_url": null,
+            "twitter_profile_url": null,
+            "google_page_url": null,
+            "facebook_page_url": null,
+            "created_at": {
+              "date": "2021-06-07 14:10:27.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-08 07:09:28.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null,
+            "is_unlimited_redemption": true,
+            "is_voucher_on": 1,
+            "type": "standard",
+            "send_notification": 1,
+            "is_payment_app": false,
+            "delivery_distance": 5000,
+            "is_full_day_delivery": true,
+            "is_delivery_disable": false,
+            "custom_delivery_amount": 10,
+            "min_delivery_charges": 0,
+            "max_delivery_charges": 5,
+            "global_delivery_charges": 5,
+            "is_global_delivery": false,
+            "delivery_condition": null,
+            "is_reservation": true,
+            "reservation_url": "https://www.google.com",
+            "is_epos": 0,
+            "client_id": null,
+            "client_secret": null,
+            "location_id": null,
+            "token": null,
+            "epos_name": "barcode",
+            "channel_link_id": null,
+            "is_epos_verify": 0,
+            "account_id": null,
+            "expire_token": null,
+            "deliver_by": "barcode",
+            "post_code": "L1 8JQ",
+            "city": "LONDON",
+            "worldpay_merchant_id": "d76880e2-3940-4718-a643-1ae9395ffe3d",
+            "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+            "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+            "worldpay_environment": "test",
+            "is_worldpay_verify": 1,
+            "square_app_id": null,
+            "logo": null,
+            "colour": "#ff9500",
+            "venue_cover_image": null,
+            "is_in_app_payment_service_verified": 1,
+            "payment_sense_jwt_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vZS50ZXN0LmNvbm5lY3QucGF5bWVudHNlbnNlLmNsb3VkIiwiZXhwIjoyMzc0MDUxOTAzLCJpYXQiOjE2MTcxODc5MDMsInN1YiI6ImNvbm5lY3QtZS1kZXZAYXBwc3BvdC5nc2VydmljZWFjY291bnQuY29tIiwiYXBpS2V5IjoiNGUwZjdkZTMtN2E3Yi00NDIxLTg1YTYtNmQyMGFmYjUxMDI2IiwiZW1haWwiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSJ9.QNQYQL1fle8dOD_FwuqArLucXG78Vt5L-5e9ZOuLgeo9tHK7qiTznuTW_HeCmHJ-szM09GuvSef05-ZtULuJ8sGJpI8lx-MYH8CRjnwAdFve-H6LTTC_wGfQ5l5oaWGifd0y4-POQLOIYG-8HTHTcnLZTE50paz_DZrpwtCfKzVleBeSoksjdu-SFqjJk1c3oI1Y-o0IoM9dacChyqJsM67huicCWsDXIiyyGUHkru84zLlBP75gouH_eZNuUostsBGxB6__4ZjZdPIM_lMXkvBtunkLWgJn877lZMGeYJ8dRW8yg45GM_slXyihuul8PajmGXw4CLIiOAELntEtgg",
+            "payment_gateway_type": "payment_sense",
+            "payment_gateway_username": "Cygnis-6629159",
+            "payment_gateway_password": "YCMPF6S69V",
+            "country": "United Kingdom (UK)",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "orkestro_type": null,
+            "orkestro_api_key": null,
+            "dine_in": true,
+            "collection": false,
+            "take_away": true,
+            "delivery": false,
+            "collection_note": "Please, collect your food in 45 minutes",
+            "is_allergen": true,
+            "allergen_description": "test",
+            "is_apple_pay_enabled": false,
+            "is_external_url": false,
+            "is_oapa": false,
+            "external_url_td": "https://www.google.com/search?q=features&source=hp&ei=q5LWYZ34FY7MaI2Xi9gH&iflsig=ALs-wAMAAAAAYdagu9uj8Y6_RbN-3_WSrxryetspRInE&ved=0ahUKEwjd-fz7xZz1AhUOJhoKHY3LAnsQ4dUDCAc&uact=5&oq=features&gs_lcp=Cgdnd3Mtd2l6EAMyCggAEIAEEEYQ_wEyCAgAEIAEELEDMggIABCABBCxA",
+            "allergen_icons": ["brazil-nut", "peanut", "soy"],
+            "encodedId": "roaLAx8d3w",
+            "unread_notification_count": 0,
+            "formatted_updated_at": "Mar 8, 22 07:09 am",
+            "video_url": null,
+            "video": null,
+            "distance": 3.51,
+            "can_redeem_offer": false,
+            "last_reload_time": null,
+            "deals": 0,
+            "deals_exclusive": 0,
+            "deals_banner_ads": 0,
+            "live_offers": 0,
+            "is_user_favourite": false,
+            "delivery_timings": [
+              {
+                "id": 2738,
+                "day": "Monday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2739,
+                "day": "Tuesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2740,
+                "day": "Wednesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2741,
+                "day": "Thursday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2742,
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2743,
+                "day": "Saturday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2744,
+                "day": "Sunday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ],
+            "region": {
+              "country": "United Kingdom (UK)",
+              "currency_code": "GBP",
+              "currency_symbol": "£"
+            },
+            "can_unlimited_redeem": false,
+            "credit": 0,
+            "standard_offer": {
+              "id": 1732,
+              "establishment_id": 305,
+              "tier_id": 3,
+              "day": "Wednesday",
+              "value": 25,
+              "title": "25%",
+              "expires_at": null,
+              "created_at": "2021-06-07 14:10:27",
+              "updated_at": "2021-06-07 14:10:27"
+            },
+            "today_delivery_timings": {
+              "day": "Wednesday",
+              "from": "00:00:00",
+              "to": "23:59:59",
+              "status": "on"
+            },
+            "establishment_timings": {
+              "is_bar_open": true,
+              "opening_time": "00:00:00",
+              "closed_time": "23:00:00",
+              "status": "open",
+              "day": "Wednesday",
+              "opening_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "closed_time_modify": {
+                "date": "2022-03-10 23:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "is_unlimited_redemption": true
+            },
+            "week_establishment_timings": [
+              {
+                "day": "Monday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Tuesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Wednesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Thursday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Friday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Saturday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Sunday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ]
+          },
+          "start_date_time": "2021-06-08 12:00:00",
+          "end_date_time": "2022-05-27 20:06:22",
+          "can_share": false,
+          "is_user_favourite": false,
+          "is_voucher": false
+        },
+        {
+          "id": 575,
+          "establishment_id": 328,
+          "offer_type_id": 2,
+          "title": "Drink In Bottles or Can",
+          "sub_title": "For Takeaway price",
+          "image": "WhIeybWp3xBeNXlZMjrsCY34nR6gZDozODz6M939.jpeg",
+          "description": "Any Packaged beer or cider available to Drink for Take Out price!",
+          "start_date": "2021-10-22",
+          "end_date": "2022-04-21",
+          "start_time": "11:35:00",
+          "end_time": "22:50:36",
+          "status": 1,
+          "is_notified": 0,
+          "distance": 10000,
+          "created_at": {
+            "date": "2021-10-22 12:53:31.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "updated_at": {
+            "date": "2022-02-03 11:29:11.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "deleted_at": null,
+          "is_date_show": true,
+          "is_scheduler": 0,
+          "is_monday": 0,
+          "is_tuesday": 0,
+          "is_wednesday": 0,
+          "is_thursday": 0,
+          "is_friday": 0,
+          "is_saturday": 0,
+          "is_sunday": 0,
+          "notification_time": null,
+          "is_menu_associated": false,
+          "menu_id": null,
+          "should_show_time": true,
+          "image_url": "https://thebarcode-dev.cygnis.dev/storage/offer/orignal/WhIeybWp3xBeNXlZMjrsCY34nR6gZDozODz6M939.jpeg",
+          "status_text": "Active",
+          "offer_type": {
+            "id": 2,
+            "title": "5 A Day",
+            "created_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null
+          },
+          "establishments": {
+            "id": 328,
+            "user_id": 1490,
+            "title": "Kingston",
+            "description": "Kingston Hotel",
+            "manager_name": "William",
+            "contact_number": "7763872786757",
+            "contact_email": "ftma@live.com",
+            "address": "Unnamed Road, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh, Pakistan",
+            "website": "https://www.new.com",
+            "latitude": 24.868712,
+            "longitude": 67.082357,
+            "images": [
+              {
+                "name": "SX1MKg99kKl3Y1GCQ4yKr8zINOIMR18mPgdXG8gB.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/SX1MKg99kKl3Y1GCQ4yKr8zINOIMR18mPgdXG8gB.jpeg"
+              },
+              {
+                "name": "PAS1s7IB8BC56Ytl88LIS77B8A4hlrwl6bXi5xLT.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/PAS1s7IB8BC56Ytl88LIS77B8A4hlrwl6bXi5xLT.jpeg"
+              },
+              {
+                "name": "JF4ddVA6bv7G9QNRtDlZPjUY05VcEr8917iXKpb3.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/JF4ddVA6bv7G9QNRtDlZPjUY05VcEr8917iXKpb3.jpeg"
+              }
+            ],
+            "video_name": "kzQLg5BzvVb5LjJBx94N",
+            "status": "active",
+            "code": null,
+            "business_timing": null,
+            "close_time": null,
+            "opening_time": null,
+            "instagram_profile_url": null,
+            "twitter_profile_url": null,
+            "google_page_url": null,
+            "facebook_page_url": null,
+            "created_at": {
+              "date": "2021-08-17 06:19:07.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-04 07:54:14.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null,
+            "is_unlimited_redemption": false,
+            "is_voucher_on": 1,
+            "type": "exclusive",
+            "send_notification": 1,
+            "is_payment_app": true,
+            "delivery_distance": null,
+            "is_full_day_delivery": true,
+            "is_delivery_disable": false,
+            "custom_delivery_amount": null,
+            "min_delivery_charges": null,
+            "max_delivery_charges": null,
+            "global_delivery_charges": null,
+            "is_global_delivery": true,
+            "delivery_condition": null,
+            "is_reservation": false,
+            "reservation_url": null,
+            "is_epos": 0,
+            "client_id": null,
+            "client_secret": null,
+            "location_id": null,
+            "token": null,
+            "epos_name": "barcode",
+            "channel_link_id": null,
+            "is_epos_verify": 0,
+            "account_id": null,
+            "expire_token": null,
+            "deliver_by": "barcode",
+            "post_code": null,
+            "city": null,
+            "worldpay_merchant_id": "D76880e2-3940-4718-a643-1ae9395ffe3d",
+            "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+            "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+            "worldpay_environment": "test",
+            "is_worldpay_verify": 1,
+            "square_app_id": null,
+            "logo": "mULyFE8oARsbDScZtshy8hRkxAJwRAuessXaPpVz.jpeg",
+            "colour": "#af7612",
+            "venue_cover_image": "RhubmLH3oNhZ2MkT6xKhr9UeTNKcgdgUy1btBmzM.jpeg",
+            "is_in_app_payment_service_verified": 0,
+            "payment_sense_jwt_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vZS50ZXN0LmNvbm5lY3QucGF5bWVudHNlbnNlLmNsb3VkIiwiZXhwIjoyMzc0MDUxOTAzLCJpYXQiOjE2MTcxODc5MDMsInN1YiI6ImNvbm5lY3QtZS1kZXZAYXBwc3BvdC5nc2VydmljZWFjY291bnQuY29tIiwiYXBpS2V5IjoiNGUwZjdkZTMtN2E3Yi00NDIxLTg1YTYtNmQyMGFmYjUxMDI2IiwiZW1haWwiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSJ9.QNQYQL1fle8dOD_FwuqArLucXG78Vt5L-5e9ZOuLgeo9tHK7qiTznuTW_HeCmHJ-szM09GuvSef05-ZtULuJ8sGJpI8lx-MYH8CRjnwAdFve-H6LTTC_wGfQ5l5oaWGifd0y4-POQLOIYG-8HTHTcnLZTE50paz_DZrpwtCfKzVleBeSoksjdu-SFqjJk1c3oI1Y-o0IoM9dacChyqJsM67huicCWsDXIiyyGUHkru84zLlBP75gouH_eZNuUostsBGxB6__4ZjZdPIM_lMXkvBtunkLWgJn877lZMGeYJ8dRW8yg45GM_slXyihuul8PajmGXw4CLIiOAELntEtgg",
+            "payment_gateway_type": "payment_sense",
+            "payment_gateway_username": "Cygnis-6629159",
+            "payment_gateway_password": "YCMPF6S69V",
+            "country": "United Kingdom (UK)",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "orkestro_type": null,
+            "orkestro_api_key": null,
+            "dine_in": true,
+            "collection": false,
+            "take_away": false,
+            "delivery": false,
+            "collection_note": "this more informal model is where guests line up this more informal model is where guests line up to",
+            "is_allergen": true,
+            "allergen_description": "The following card numbers are to be used with your Global Payments test account",
+            "is_apple_pay_enabled": false,
+            "is_external_url": false,
+            "external_url": "https://www.google.com/",
+            "is_oapa": false,
+            "allergen_icons": [],
+            "encodedId": "pP9635GdKV",
+            "unread_notification_count": 0,
+            "formatted_updated_at": "Mar 4, 22 07:54 am",
+            "logo_url": "https://thebarcode-dev.cygnis.dev/storage/logo/mULyFE8oARsbDScZtshy8hRkxAJwRAuessXaPpVz.jpeg",
+            "venue_cover_image_url": "https://thebarcode-dev.cygnis.dev/storage/venue_cover_image/RhubmLH3oNhZ2MkT6xKhr9UeTNKcgdgUy1btBmzM.jpeg",
+            "video_url": "https://thebarcode-dev.cygnis.dev/storage/establishment/thumbnail/kzQLg5BzvVb5LjJBx94N",
+            "video": {
+              "name": "kzQLg5BzvVb5LjJBx94N.mp4",
+              "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/video/kzQLg5BzvVb5LjJBx94N.mp4"
+            },
+            "distance": 3.52,
+            "can_redeem_offer": true,
+            "last_reload_time": null,
+            "deals": 0,
+            "deals_exclusive": 0,
+            "deals_banner_ads": 0,
+            "live_offers": 0,
+            "is_user_favourite": false,
+            "delivery_timings": [
+              {
+                "id": 2899,
+                "day": "Monday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2900,
+                "day": "Tuesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2901,
+                "day": "Wednesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2902,
+                "day": "Thursday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2903,
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2904,
+                "day": "Saturday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2905,
+                "day": "Sunday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ],
+            "region": {
+              "country": "United Kingdom (UK)",
+              "currency_code": "GBP",
+              "currency_symbol": "£"
+            },
+            "can_unlimited_redeem": false,
+            "credit": 0,
+            "standard_offer": {
+              "id": 1893,
+              "establishment_id": 328,
+              "tier_id": 3,
+              "day": "Wednesday",
+              "value": 25,
+              "title": "25%",
+              "expires_at": null,
+              "created_at": "2021-08-17 06:19:07",
+              "updated_at": "2021-08-17 06:19:07"
+            },
+            "today_delivery_timings": {
+              "day": "Wednesday",
+              "from": "00:00:00",
+              "to": "23:59:59",
+              "status": "on"
+            },
+            "establishment_timings": {
+              "is_bar_open": true,
+              "opening_time": "00:00:00",
+              "closed_time": "00:00:00",
+              "status": "open",
+              "day": "Wednesday",
+              "opening_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "closed_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "is_unlimited_redemption": false
+            },
+            "week_establishment_timings": [
+              {
+                "day": "Monday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Tuesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Wednesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Thursday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Friday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Saturday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Sunday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "is_unlimited_redemption": false,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ]
+          },
+          "start_date_time": "2021-10-22 11:35:00",
+          "end_date_time": "2022-04-21 22:50:36",
+          "can_share": false,
+          "is_user_favourite": false,
+          "is_voucher": false
+        },
+        {
+          "id": 516,
+          "establishment_id": 305,
+          "offer_type_id": 2,
+          "title": "soups",
+          "sub_title": "vegetable",
+          "image": "9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "description": "Seasonal Vegetable",
+          "start_date": "2021-06-08",
+          "end_date": "2022-05-27",
+          "start_time": "12:00:00",
+          "end_time": "20:06:22",
+          "status": 1,
+          "is_notified": 0,
+          "distance": 10000,
+          "created_at": {
+            "date": "2021-06-08 12:15:52.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "updated_at": {
+            "date": "2021-11-08 07:47:10.000000",
+            "timezone_type": 3,
+            "timezone": "Europe/London"
+          },
+          "deleted_at": null,
+          "is_date_show": true,
+          "is_scheduler": 0,
+          "is_monday": 0,
+          "is_tuesday": 0,
+          "is_wednesday": 0,
+          "is_thursday": 0,
+          "is_friday": 0,
+          "is_saturday": 0,
+          "is_sunday": 0,
+          "notification_time": null,
+          "is_menu_associated": false,
+          "menu_id": null,
+          "should_show_time": true,
+          "image_url": "https://thebarcode-dev.cygnis.dev/storage/offer/orignal/9osvDOp5HymISFiJr1oSFGr4X56BK4s5B6heq3lE.jpeg",
+          "status_text": "Active",
+          "offer_type": {
+            "id": 2,
+            "title": "5 A Day",
+            "created_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-09 12:58:13.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null
+          },
+          "establishments": {
+            "id": 305,
+            "user_id": 1157,
+            "title": "MF Foods",
+            "description": "The Agile methodology is a way to manage a project by breaking it up into several phases. It involves constant collaboration with stakeholders and continuous improvement at every stage. Once the work begins, teams cycle through a process of planning, executing, and evaluating. Continuous collaboration is vital, both with team members and project stakeholders.",
+            "manager_name": "Athar",
+            "contact_number": "",
+            "contact_email": "mffoods@gmail.com",
+            "address": "karachi pakistan",
+            "website": null,
+            "latitude": 24.8686495,
+            "longitude": 67.082604,
+            "images": [
+              {
+                "name": "WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/WxVN9JswD1SGmp0KtQ3TWljBpB46NOGpIW5GNz89.jpeg"
+              },
+              {
+                "name": "Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg",
+                "url": "https://thebarcode-dev.cygnis.dev/storage/establishment/orignal/Dn0AWVGp7C14TfKSNH9jmWVAgO3mrCBju3863c4k.jpeg"
+              }
+            ],
+            "video_name": null,
+            "status": "active",
+            "code": null,
+            "business_timing": null,
+            "close_time": null,
+            "opening_time": null,
+            "instagram_profile_url": null,
+            "twitter_profile_url": null,
+            "google_page_url": null,
+            "facebook_page_url": null,
+            "created_at": {
+              "date": "2021-06-07 14:10:27.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "updated_at": {
+              "date": "2022-03-08 07:09:28.000000",
+              "timezone_type": 3,
+              "timezone": "Europe/London"
+            },
+            "deleted_at": null,
+            "is_unlimited_redemption": true,
+            "is_voucher_on": 1,
+            "type": "standard",
+            "send_notification": 1,
+            "is_payment_app": false,
+            "delivery_distance": 5000,
+            "is_full_day_delivery": true,
+            "is_delivery_disable": false,
+            "custom_delivery_amount": 10,
+            "min_delivery_charges": 0,
+            "max_delivery_charges": 5,
+            "global_delivery_charges": 5,
+            "is_global_delivery": false,
+            "delivery_condition": null,
+            "is_reservation": true,
+            "reservation_url": "https://www.google.com",
+            "is_epos": 0,
+            "client_id": null,
+            "client_secret": null,
+            "location_id": null,
+            "token": null,
+            "epos_name": "barcode",
+            "channel_link_id": null,
+            "is_epos_verify": 0,
+            "account_id": null,
+            "expire_token": null,
+            "deliver_by": "barcode",
+            "post_code": "L1 8JQ",
+            "city": "LONDON",
+            "worldpay_merchant_id": "d76880e2-3940-4718-a643-1ae9395ffe3d",
+            "worldpay_service_key": "T_S_9c0ab77c-b384-4faf-909c-027d6f4e43c5",
+            "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+            "worldpay_environment": "test",
+            "is_worldpay_verify": 1,
+            "square_app_id": null,
+            "logo": null,
+            "colour": "#ff9500",
+            "venue_cover_image": null,
+            "is_in_app_payment_service_verified": 1,
+            "payment_sense_jwt_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSIsImF1ZCI6Imh0dHBzOi8vZS50ZXN0LmNvbm5lY3QucGF5bWVudHNlbnNlLmNsb3VkIiwiZXhwIjoyMzc0MDUxOTAzLCJpYXQiOjE2MTcxODc5MDMsInN1YiI6ImNvbm5lY3QtZS1kZXZAYXBwc3BvdC5nc2VydmljZWFjY291bnQuY29tIiwiYXBpS2V5IjoiNGUwZjdkZTMtN2E3Yi00NDIxLTg1YTYtNmQyMGFmYjUxMDI2IiwiZW1haWwiOiJjb25uZWN0LWUtZGV2QGFwcHNwb3QuZ3NlcnZpY2VhY2NvdW50LmNvbSJ9.QNQYQL1fle8dOD_FwuqArLucXG78Vt5L-5e9ZOuLgeo9tHK7qiTznuTW_HeCmHJ-szM09GuvSef05-ZtULuJ8sGJpI8lx-MYH8CRjnwAdFve-H6LTTC_wGfQ5l5oaWGifd0y4-POQLOIYG-8HTHTcnLZTE50paz_DZrpwtCfKzVleBeSoksjdu-SFqjJk1c3oI1Y-o0IoM9dacChyqJsM67huicCWsDXIiyyGUHkru84zLlBP75gouH_eZNuUostsBGxB6__4ZjZdPIM_lMXkvBtunkLWgJn877lZMGeYJ8dRW8yg45GM_slXyihuul8PajmGXw4CLIiOAELntEtgg",
+            "payment_gateway_type": "payment_sense",
+            "payment_gateway_username": "Cygnis-6629159",
+            "payment_gateway_password": "YCMPF6S69V",
+            "country": "United Kingdom (UK)",
+            "currency_code": "GBP",
+            "currency_symbol": "£",
+            "orkestro_type": null,
+            "orkestro_api_key": null,
+            "dine_in": true,
+            "collection": false,
+            "take_away": true,
+            "delivery": false,
+            "collection_note": "Please, collect your food in 45 minutes",
+            "is_allergen": true,
+            "allergen_description": "test",
+            "is_apple_pay_enabled": false,
+            "is_external_url": false,
+            "is_oapa": false,
+            "external_url_td": "https://www.google.com/search?q=features&source=hp&ei=q5LWYZ34FY7MaI2Xi9gH&iflsig=ALs-wAMAAAAAYdagu9uj8Y6_RbN-3_WSrxryetspRInE&ved=0ahUKEwjd-fz7xZz1AhUOJhoKHY3LAnsQ4dUDCAc&uact=5&oq=features&gs_lcp=Cgdnd3Mtd2l6EAMyCggAEIAEEEYQ_wEyCAgAEIAEELEDMggIABCABBCxA",
+            "allergen_icons": ["brazil-nut", "peanut", "soy"],
+            "encodedId": "roaLAx8d3w",
+            "unread_notification_count": 0,
+            "formatted_updated_at": "Mar 8, 22 07:09 am",
+            "video_url": null,
+            "video": null,
+            "distance": 3.51,
+            "can_redeem_offer": false,
+            "last_reload_time": null,
+            "deals": 0,
+            "deals_exclusive": 0,
+            "deals_banner_ads": 0,
+            "live_offers": 0,
+            "is_user_favourite": false,
+            "delivery_timings": [
+              {
+                "id": 2738,
+                "day": "Monday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2739,
+                "day": "Tuesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2740,
+                "day": "Wednesday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2741,
+                "day": "Thursday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2742,
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2743,
+                "day": "Saturday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "id": 2744,
+                "day": "Sunday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on",
+                "from_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "to_modify": {
+                  "date": "2022-03-10 23:59:59.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ],
+            "region": {
+              "country": "United Kingdom (UK)",
+              "currency_code": "GBP",
+              "currency_symbol": "£"
+            },
+            "can_unlimited_redeem": false,
+            "credit": 0,
+            "standard_offer": {
+              "id": 1732,
+              "establishment_id": 305,
+              "tier_id": 3,
+              "day": "Wednesday",
+              "value": 25,
+              "title": "25%",
+              "expires_at": null,
+              "created_at": "2021-06-07 14:10:27",
+              "updated_at": "2021-06-07 14:10:27"
+            },
+            "today_delivery_timings": {
+              "day": "Wednesday",
+              "from": "00:00:00",
+              "to": "23:59:59",
+              "status": "on"
+            },
+            "establishment_timings": {
+              "is_bar_open": true,
+              "opening_time": "00:00:00",
+              "closed_time": "23:00:00",
+              "status": "open",
+              "day": "Wednesday",
+              "opening_time_modify": {
+                "date": "2022-03-10 00:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "closed_time_modify": {
+                "date": "2022-03-10 23:00:00.000000",
+                "timezone_type": 3,
+                "timezone": "Europe/London"
+              },
+              "is_unlimited_redemption": true
+            },
+            "week_establishment_timings": [
+              {
+                "day": "Monday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Tuesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Wednesday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Thursday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Friday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Saturday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              },
+              {
+                "day": "Sunday",
+                "status": "open",
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "is_unlimited_redemption": true,
+                "opening_time_modify": {
+                  "date": "2022-03-10 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2022-03-10 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                }
+              }
+            ]
+          },
+          "start_date_time": "2021-06-08 12:00:00",
+          "end_date_time": "2022-05-27 20:06:22",
+          "can_share": false,
+          "is_user_favourite": false,
+          "is_voucher": false
+        }
+      ],
+      "pagination": null,
+      "message": "Success."
+    }
+  }
+}

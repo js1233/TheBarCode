@@ -1,0 +1,459 @@
+{
+  "duration": 4598,
+  "problem": null,
+  "originalError": null,
+  "ok": true,
+  "status": 200,
+  "headers": {
+    "content-type": "application/json",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=7JH5PEHLVBsfsSA0VWtJeHVZLQgU7Qz0pSHCvsstsRDKVknXWRKEvE4Hw%2FKaMm4d1Ppp%2Fdg%2B8ZXqfs7nfoT7JtB%2FqvqZfm50Ha8QsL%2Br9vjFAwrtOzglYth0nB5Rh1pMsSprfxTWecfgcUA9\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400, h3-28=\":443\"; ma=86400, h3-27=\":443\"; ma=86400",
+    "cache-control": "no-cache, private",
+    "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+    "server": "cloudflare",
+    "strict-transport-security": "max-age=0; includeSubDomains",
+    "x-xss-protection": "1; mode=block",
+    "content-encoding": "br",
+    "cf-cache-status": "DYNAMIC",
+    "date": "Fri, 24 Dec 2021 11:28:51 GMT",
+    "cf-ray": "6c297cf42d7efa28-AMS",
+    "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Accept-Encoding"
+  },
+  "config": {
+    "url": "search/all",
+    "method": "get",
+    "headers": {
+      "Accept": "application/json",
+      "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjI1YzdlODZlNjVhMjA1MWQ4MDBmZTM2ZDg2MjRiYWM1Mjk0NDZhZjYyZGY1YWM0MDYwMGQ0YWVkOWVjZDkwNWI5YmM1MTQ2YjdhNDkyYzBhIn0.eyJhdWQiOiI4ODAxIiwianRpIjoiMjVjN2U4NmU2NWEyMDUxZDgwMGZlMzZkODYyNGJhYzUyOTQ0NmFmNjJkZjVhYzQwNjAwZDRhZWQ5ZWNkOTA1YjliYzUxNDZiN2E0OTJjMGEiLCJpYXQiOjE2Mzk3MzcxNzAsIm5iZiI6MTYzOTczNzE3MCwiZXhwIjoxNjcxMjczMTcwLCJzdWIiOiIyMzgwIiwic2NvcGVzIjpbInVzZXIuc2hvdyIsInVwZGF0ZS5yZWZlcnJhbC5jb2RlIiwiaW50ZXJlc3QuaW5kZXgiLCJ1c2VyLnVwZGF0ZSIsInVwZGF0ZS51c2VyLmludGVyZXN0cyIsInVwZGF0ZS51c2VyLmZhdm9yaXRlLmVzdGFibGlzaG1lbnQiLCJ1c2VyLWZhdm9yaXRlLWVzdGFibGlzaG1lbnQuaW5kZXgiLCJvZmZlci5pbmRleCIsIm9mZmVyLnNob3ciLCJlc3RhYmxpc2htZW50LmluZGV4IiwiZXN0YWJsaXNobWVudC5zaG93Iiwic3Vic2NyaXB0aW9uLnN0b3JlIiwib2ZmZXItcmVkZWVtLnN0b3JlIiwiZml2ZS1hLWRheS5pbmRleCIsInZpZXcuc3RvcmUiLCJzZW5kLWludml0ZS5zdG9yZSIsInVwZGF0ZS5sb2NhdGlvbiIsInVzZXIuY3VzdG9tZXIuYWN0aXZhdGlvbiIsInVzZXIucmVzZW5kLmVtYWlsIiwic3Vic2NyaXB0aW9uLmRldGFpbCIsInNoYXJlLnN0b3JlIiwic2hhcmUuaW5kZXgiLCJzaGFyZS5kZXN0cm95IiwiZXN0YWJsaXNobWVudC1ldmVudC5pbmRleCIsImVzdGFibGlzaG1lbnQtbWVudS5pbmRleCIsImNhdGVnb3J5LmluZGV4Iiwic2VhcmNoLmFsbCIsInVwZGF0ZS51c2VyLmZhdm9yaXRlLm9mZmVyIiwidXNlci1mYXZvcml0ZS1vZmZlci5pbmRleCIsInVwZGF0ZS51c2VyLmJvb2ttYXJrLmV2ZW50IiwidXNlci1ib29rbWFyay1ldmVudC5pbmRleCIsImh5cGVybGluay1ldmVudC5pbmRleCIsImV2ZW50LXNoYXJlLnN0b3JlIiwiZXZlbnQtc2hhcmUuaW5kZXgiLCJldmVudC1zaGFyZS5kZXN0cm95IiwiZXN0YWJsaXNobWVudC1zZWdtZW50LmluZGV4IiwiZXN0YWJsaXNobWVudC1zdWJzY3JpcHRpb24uc3RvcmUiLCJlc3RhYmxpc2htZW50LXN1YnNjcmlwdGlvbi5kZXRhaWwiLCJhcHAtc2hhcmVkLnN0b3JlIiwiYXBwLXNoYXJlZC5pbmRleCIsInZvdWNoZXIuaW5kZXgiLCJ1c2VyLXZvdWNoZXIuaW5kZXgiLCJ1c2VyLW5vdGlmaWNhdGlvbi5pbmRleCIsInVzZXIubm90LnJlYWQubm90aWZpY2F0aW9uIiwidXNlci1ub3RpZmljYXRpb24udXBkYXRlIiwib3JkZXIuaW5kZXgiLCJvcmRlci5zdG9yZSIsIm9yZGVyLnNob3ciLCJjYXJ0LmluZGV4IiwiY2FydC5zdG9yZSIsImNhcnQuc3luYyIsInBheW1lbnQuc3RvcmUiLCJhZGRyZXNzLmluZGV4IiwiYWRkcmVzcy5zdG9yZSIsImFkZHJlc3MudXBkYXRlIiwiYWRkcmVzcy5kZXN0cm95Iiwidm91Y2hlci5kZXRhaWwiLCJvZmZlcnMuZGV0YWlsIiwiY2FydC5jb3VudCIsImNhcmQuaW5kZXgiLCJjYXJkLnN0b3JlIiwiY2FyZC5kZXN0cm95IiwiYXV0aG9yaXNlLm9yZGVyIiwibW9kaWZpZXItZ3JvdXAuaW5kZXgiLCJtb2RpZmllci1ncm91cC5zdG9yZSIsIm1vZGlmaWVyLWdyb3VwLmRlc3Ryb3kiLCJtb2RpZmllci5pbmRleCIsIm1vZGlmaWVyLnN0b3JlIiwibW9kaWZpZXIuZGVzdHJveSIsIndlYi5wYXltZW50IiwiZ2V0LmNvcmRpbmF0ZXNiYXIiLCJwYXltZW50LnNlbnNlIiwicGF5bWVudC5zZW5zZS5jb21wbGV0ZSIsInBheW1lbnQudXBkYXRlIiwiZXN0YWJsaXNobWVudC1tZW51LnNob3ciLCJyZS5vcmRlciJdfQ.tzLHpLhyK-zGuGbasrCupyDJp6uAZ6u20Wqy_LmL_MhDtbY8SP6UoW6ul4fJe5Pg1Rp4_ufEjLtzo569iqxATQZoKgClsRHQ9XyamkpEWApAp_uDjAzBffHYX9CYMhFsdrp_ACrpBFxU5e0kWQW6zR-ZsQWf7cKSdZfrNpK6dCEePaJRxteIvWNvKv1xtw4Pho-rQuS6begbP29RapWZBgFp27q7dDujOjZPUQMMyIQR_sCLaqTp0Axmeb1HPhodpOhEiaaWHHBXu9tmNRLV7BMBKBSI8IwncrpiHY4v1TiVmiUm9mFOuGr7WAOSdwiCAZZF7NdEQVPDxo40j46BBbbMLFIbug7eKETfTUfJFZu5Hd3JRXgy52K7tgq1sPOVIs6DURXkk7m9bTbLX7X1MA9FTcEO-kqK7UBa_FAZNcOSiP41uwHUd94tEhuH-Y-2wm44c1oZZKasN6wL7nv3o6nQ7v_OkqpZx0QxTssjoYaEFF_wTiHaWsyD-PoYadi4WZMPzC4_cZ8Uf7gXTqo8eabkvuWiWXmfzDkp77InKQhfuVSwnwoDhjr-UxO4SBqGLr-zkcC1t7s6L6sDmttateUAxzlabgIUOXnKO0S0ChIuElK-pV5S2EQdzKdynJcgFeSNTaL_2KmLSgJkyuRVkpxruCwmaAcReONiMbMImkM"
+    },
+    "params": {
+      "type": "bars",
+      "keyword": "",
+      "interest_ids": [],
+      "tier_ids": [],
+      "is_for_map": "true"
+    },
+    "baseURL": "https://thebarcode-dev.cygnis.dev/api/",
+    "transformRequest": [null],
+    "transformResponse": [null],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    }
+  },
+  "data": {
+    "response": {
+      "data": [
+        {
+          "title": "Bars",
+          "type": 1,
+          "results": [
+            {
+              "id": 255,
+              "title": "Meet Up",
+              "address": "2/A street 203",
+              "latitude": 24.86851196,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": false,
+              "is_epos": 1,
+              "epos_name": "squareup",
+              "standard_offer": {
+                "id": 1416,
+                "establishment_id": 255,
+                "tier_id": 3,
+                "day": "Friday",
+                "value": 25,
+                "title": "25%",
+                "expires_at": null,
+                "created_at": "2021-04-08 06:14:59",
+                "updated_at": "2021-04-08 06:14:59"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": false
+              }
+            },
+            {
+              "id": 230,
+              "title": "Android Bar",
+              "address": "Burhani Avenue Road off، Shaheed-e-Millat Rd, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh 75350, Pakistan",
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": true,
+              "is_epos": 0,
+              "epos_name": "barcode",
+              "standard_offer": {
+                "id": 1981,
+                "establishment_id": 230,
+                "tier_id": 1,
+                "day": "Friday",
+                "value": 10,
+                "title": "10%",
+                "expires_at": null,
+                "created_at": "2021-11-05 11:52:13",
+                "updated_at": "2021-12-09 11:38:52"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "03:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": true
+              }
+            }
+          ],
+          "is_results_complete": false
+        },
+        {
+          "title": "Delivery",
+          "type": 2,
+          "results": [
+            {
+              "id": 255,
+              "title": "Meet Up",
+              "address": "2/A street 203",
+              "latitude": 24.86851196,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": false,
+              "is_epos": 1,
+              "epos_name": "squareup",
+              "standard_offer": {
+                "id": 1416,
+                "establishment_id": 255,
+                "tier_id": 3,
+                "day": "Friday",
+                "value": 25,
+                "title": "25%",
+                "expires_at": null,
+                "created_at": "2021-04-08 06:14:59",
+                "updated_at": "2021-04-08 06:14:59"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": false
+              }
+            },
+            {
+              "id": 230,
+              "title": "Android Bar",
+              "address": "Burhani Avenue Road off، Shaheed-e-Millat Rd, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh 75350, Pakistan",
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": true,
+              "is_epos": 0,
+              "epos_name": "barcode",
+              "standard_offer": {
+                "id": 1981,
+                "establishment_id": 230,
+                "tier_id": 1,
+                "day": "Friday",
+                "value": 10,
+                "title": "10%",
+                "expires_at": null,
+                "created_at": "2021-11-05 11:52:13",
+                "updated_at": "2021-12-09 11:38:52"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "03:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": true
+              }
+            }
+          ],
+          "is_results_complete": false
+        },
+        {
+          "title": "Deals",
+          "type": 3,
+          "results": [
+            {
+              "id": 230,
+              "title": "Android Bar",
+              "address": "Burhani Avenue Road off، Shaheed-e-Millat Rd, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh 75350, Pakistan",
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": true,
+              "is_epos": 0,
+              "epos_name": "barcode",
+              "standard_offer": {
+                "id": 1981,
+                "establishment_id": 230,
+                "tier_id": 1,
+                "day": "Friday",
+                "value": 10,
+                "title": "10%",
+                "expires_at": null,
+                "created_at": "2021-11-05 11:52:13",
+                "updated_at": "2021-12-09 11:38:52"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "03:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "00:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": true
+              }
+            },
+            {
+              "id": 302,
+              "title": "Yates Sheffield",
+              "address": "2-6 Cambridge St, Sheffield City Centre, Sheffield S1 4HP, United Kingdom",
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "is_unlimited_redemption": true,
+              "is_epos": 0,
+              "epos_name": "barcode",
+              "standard_offer": {
+                "id": 1712,
+                "establishment_id": 302,
+                "tier_id": 3,
+                "day": "Friday",
+                "value": 25,
+                "title": "25%",
+                "expires_at": null,
+                "created_at": "2021-05-18 07:45:35",
+                "updated_at": "2021-05-18 07:45:35"
+              },
+              "today_delivery_timings": {
+                "day": "Friday",
+                "from": "00:00:00",
+                "to": "23:59:59",
+                "status": "on"
+              },
+              "establishment_timings": {
+                "is_bar_open": true,
+                "opening_time": "00:00:00",
+                "closed_time": "23:00:00",
+                "status": "open",
+                "day": "Friday",
+                "opening_time_modify": {
+                  "date": "2021-12-24 00:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "closed_time_modify": {
+                  "date": "2021-12-24 23:00:00.000000",
+                  "timezone_type": 3,
+                  "timezone": "Europe/London"
+                },
+                "is_unlimited_redemption": true
+              }
+            }
+          ],
+          "is_results_complete": false
+        },
+        {
+          "title": "Events",
+          "type": 6,
+          "results": [
+            {
+              "id": 151,
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "establishment": {
+                "id": 230,
+                "title": "Android Bar",
+                "address": "Burhani Avenue Road off، Shaheed-e-Millat Rd, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh 75350, Pakistan",
+                "latitude": 24.868712,
+                "longitude": 67.082357,
+                "is_unlimited_redemption": true,
+                "is_epos": 0,
+                "epos_name": "barcode",
+                "standard_offer": {
+                  "id": 1981,
+                  "establishment_id": 230,
+                  "tier_id": 1,
+                  "day": "Friday",
+                  "value": 10,
+                  "title": "10%",
+                  "expires_at": null,
+                  "created_at": "2021-11-05 11:52:13",
+                  "updated_at": "2021-12-09 11:38:52"
+                },
+                "today_delivery_timings": {
+                  "day": "Friday",
+                  "from": "03:00:00",
+                  "to": "23:59:59",
+                  "status": "on"
+                },
+                "establishment_timings": {
+                  "is_bar_open": true,
+                  "opening_time": "00:00:00",
+                  "closed_time": "00:00:00",
+                  "status": "open",
+                  "day": "Friday",
+                  "opening_time_modify": {
+                    "date": "2021-12-24 00:00:00.000000",
+                    "timezone_type": 3,
+                    "timezone": "Europe/London"
+                  },
+                  "closed_time_modify": {
+                    "date": "2021-12-24 00:00:00.000000",
+                    "timezone_type": 3,
+                    "timezone": "Europe/London"
+                  },
+                  "is_unlimited_redemption": true
+                }
+              }
+            },
+            {
+              "id": 150,
+              "latitude": 24.868712,
+              "longitude": 67.082357,
+              "establishment": {
+                "id": 230,
+                "title": "Android Bar",
+                "address": "Burhani Avenue Road off، Shaheed-e-Millat Rd, Bangalore Town Block A Bangalore Town, Karachi, Karachi City, Sindh 75350, Pakistan",
+                "latitude": 24.868712,
+                "longitude": 67.082357,
+                "is_unlimited_redemption": true,
+                "is_epos": 0,
+                "epos_name": "barcode",
+                "standard_offer": {
+                  "id": 1981,
+                  "establishment_id": 230,
+                  "tier_id": 1,
+                  "day": "Friday",
+                  "value": 10,
+                  "title": "10%",
+                  "expires_at": null,
+                  "created_at": "2021-11-05 11:52:13",
+                  "updated_at": "2021-12-09 11:38:52"
+                },
+                "today_delivery_timings": {
+                  "day": "Friday",
+                  "from": "03:00:00",
+                  "to": "23:59:59",
+                  "status": "on"
+                },
+                "establishment_timings": {
+                  "is_bar_open": true,
+                  "opening_time": "00:00:00",
+                  "closed_time": "00:00:00",
+                  "status": "open",
+                  "day": "Friday",
+                  "opening_time_modify": {
+                    "date": "2021-12-24 00:00:00.000000",
+                    "timezone_type": 3,
+                    "timezone": "Europe/London"
+                  },
+                  "closed_time_modify": {
+                    "date": "2021-12-24 00:00:00.000000",
+                    "timezone_type": 3,
+                    "timezone": "Europe/London"
+                  },
+                  "is_unlimited_redemption": true
+                }
+              }
+            }
+          ],
+          "is_results_complete": false
+        }
+      ],
+      "pagination": null,
+      "message": "Success."
+    }
+  }
+}

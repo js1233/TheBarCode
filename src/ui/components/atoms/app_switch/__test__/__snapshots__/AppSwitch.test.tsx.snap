@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<
+  icon={null}
+  isOn={true}
+  offColor="#D4D4D4"
+  onColor="#0F766E"
+  onToggle={[Function]}
+  testID="app-switch"
+  thumbOffStyle={Object {}}
+/>
+`;

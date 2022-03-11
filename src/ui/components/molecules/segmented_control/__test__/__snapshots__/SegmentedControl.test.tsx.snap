@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Segmented control tests snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "elevation": 3,
+      "paddingHorizontal": 18,
+      "paddingVertical": 10,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.4,
+      "shadowRadius": 2,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderRadius": 10,
+          "borderStyle": "solid",
+          "flexDirection": "row",
+          "height": 35,
+          "overflow": "hidden",
+        },
+        Object {
+          "backgroundColor": "#E5E5E5",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      collapsable={false}
+      nativeID="animatedComponent"
+      style={
+        Object {
+          "backgroundColor": "#0F766E",
+          "borderRadius": 10,
+          "bottom": 0,
+          "end": 0,
+          "position": "absolute",
+          "start": 0,
+          "top": 0,
+          "transform": Array [
+            Object {
+              "translateX": 0,
+            },
+          ],
+          "width": 0,
+        }
+      }
+      testID="animatedView"
+    />
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "transparent",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-around",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "ProximaNova-Bold",
+              },
+              Object {
+                "color": "#171717",
+                "fontSize": 27,
+              },
+              Object {
+                "lineHeight": 35,
+              },
+              Array [
+                Object {
+                  "fontSize": 25,
+                },
+                Array [
+                  Object {
+                    "color": "#737373",
+                  },
+                ],
+              ],
+            ]
+          }
+        >
+          Label 1
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "ProximaNova-Bold",
+              },
+              Object {
+                "color": "#171717",
+                "fontSize": 27,
+              },
+              Object {
+                "lineHeight": 35,
+              },
+              Array [
+                Object {
+                  "fontSize": 25,
+                },
+                Array [
+                  Object {
+                    "color": "#FFFFFF",
+                  },
+                ],
+              ],
+            ]
+          }
+        >
+          Label 2
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "fontFamily": "ProximaNova-Bold",
+              },
+              Object {
+                "color": "#171717",
+                "fontSize": 27,
+              },
+              Object {
+                "lineHeight": 35,
+              },
+              Array [
+                Object {
+                  "fontSize": 25,
+                },
+                Array [
+                  Object {
+                    "color": "#737373",
+                  },
+                ],
+              ],
+            ]
+          }
+        >
+          Label 3
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "85060351890",
+    "firebase_url": "https://the-bar-code-1537254403476.firebaseio.com",
+    "project_id": "the-bar-code-1537254403476",
+    "storage_bucket": "the-bar-code-1537254403476.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85060351890:android:4c8af18d10073341e4b34b",
+        "android_client_info": {
+          "package_name": "co.thebarcode.venue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdBMTUS1QJDp5NP_2UJtWmuEcsirL3z_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "85060351890-0nteihpjh5hc7ed2k8h08auk7voadc4l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.tbcRN"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85060351890:android:cb1852133ec9b452",
+        "android_client_info": {
+          "package_name": "com.milnesmayltd.thebarcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85060351890-1ut9kdo34ljl1uo13r66nk36r2q7litr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.milnesmayltd.thebarcode",
+            "certificate_hash": "9824bbdf3ff9924e23513ce7316c4bb16c52c143"
+          }
+        },
+        {
+          "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdBMTUS1QJDp5NP_2UJtWmuEcsirL3z_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "85060351890-0nteihpjh5hc7ed2k8h08auk7voadc4l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.tbcRN"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:85060351890:android:d9dfc2276489c03fe4b34b",
+        "android_client_info": {
+          "package_name": "com.milnesmayltd.thebarcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdBMTUS1QJDp5NP_2UJtWmuEcsirL3z_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "85060351890-tjkm94m6c87lb93munn2ukcod3cqecfj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "85060351890-0nteihpjh5hc7ed2k8h08auk7voadc4l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.tbcRN"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

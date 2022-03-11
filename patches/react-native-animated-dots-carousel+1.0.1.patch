@@ -1,0 +1,47 @@
+diff --git a/node_modules/react-native-animated-dots-carousel/lib/typescript/src/CarouselDots/interface.d.ts b/node_modules/react-native-animated-dots-carousel/lib/typescript/src/CarouselDots/interface.d.ts
+index 74ba54f..5dbe71c 100644
+--- a/node_modules/react-native-animated-dots-carousel/lib/typescript/src/CarouselDots/interface.d.ts
++++ b/node_modules/react-native-animated-dots-carousel/lib/typescript/src/CarouselDots/interface.d.ts
+@@ -5,6 +5,7 @@ export interface DotConfig {
+     margin: number;
+     borderWidth?: number;
+     borderColor?: string;
++    enabledRadius: boolean;
+ }
+ export interface DecreasingDot {
+     quantity: number;
+diff --git a/node_modules/react-native-animated-dots-carousel/src/CarouselDots/Dot/index.tsx b/node_modules/react-native-animated-dots-carousel/src/CarouselDots/Dot/index.tsx
+index 50a8d8e..9beed06 100644
+--- a/node_modules/react-native-animated-dots-carousel/src/CarouselDots/Dot/index.tsx
++++ b/node_modules/react-native-animated-dots-carousel/src/CarouselDots/Dot/index.tsx
+@@ -84,7 +84,8 @@ const Dot = ({
+   return (
+     <Animated.View
+       style={[
+-        {
++        {width: 10,
++           height: 10,
+           backgroundColor: interpolateOpacityAndColor
+             ? animatedValue.current.interpolate({
+                 inputRange: [0, 1],
+@@ -92,7 +93,7 @@ const Dot = ({
+               })
+             : type.color,
+           borderColor: type.borderColor,
+-          borderRadius: type.size,
++          borderRadius: type.enabledRadius ? type.size : 1,
+           borderWidth: type.borderWidth,
+           marginHorizontal: verticalOrientation ? 0 : type.margin,
+           marginVertical: verticalOrientation ? type.margin : 0,
+diff --git a/node_modules/react-native-animated-dots-carousel/src/CarouselDots/interface.ts b/node_modules/react-native-animated-dots-carousel/src/CarouselDots/interface.ts
+index a1b668a..6534097 100644
+--- a/node_modules/react-native-animated-dots-carousel/src/CarouselDots/interface.ts
++++ b/node_modules/react-native-animated-dots-carousel/src/CarouselDots/interface.ts
+@@ -5,6 +5,7 @@ export interface DotConfig {
+   margin: number;
+   borderWidth?: number;
+   borderColor?: string;
++  enabledRadius: boolean
+ }
+ export interface DecreasingDot {
+   quantity: number;

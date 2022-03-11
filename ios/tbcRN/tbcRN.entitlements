@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	<string>development</string>
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:thebarcodeapp.page.link</string>
+		<string>applinks:thebarcode.page.link</string>
+		<string>applinks:barcodeoffer.page.link</string>
+		<string>applinks:thebarcode-dev.cygnis.dev/password/set</string>
+		<string>applinks:thebarcode-qa.cygnis.dev/password/set</string>
+		<string>applinks:staging.thebarcode.co/password/set</string>
+		<string>applinks:thebarcode.co/password/set</string>
+	</array>
+	<key>com.apple.developer.in-app-payments</key>
+	<array>
+		<string>merchant.com.cygnismedia.thebarcodeapp.squareup</string>
+	</array>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.cygnismedia.thebarcodeapp.onesignal</string>
+	</array>
+</dict>
+</plist>

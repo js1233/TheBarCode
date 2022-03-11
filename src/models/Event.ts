@@ -1,0 +1,54 @@
+import EOfferType from "models/enums/EOfferType";
+import EIntBoolean from "models/enums/EIntBoolean";
+import DateTime from "models/DateTime";
+import { Venue } from "models/Venue";
+
+export type SharedEvent = {
+  id: number;
+  establishment_id?: number;
+  name?: string;
+  offer_type_id?: EOfferType;
+  title: string;
+  sub_title?: string;
+  image?: string;
+  description?: string;
+  start_date?: string;
+  end_date?: string;
+  start_time?: string;
+  end_time?: string;
+  status: EIntBoolean;
+  is_notified: EIntBoolean;
+  distance?: number;
+  created_at: DateTime;
+  updated_at: DateTime;
+  deleted_at?: DateTime;
+  is_date_show: boolean;
+  is_scheduler: EIntBoolean;
+  is_monday: EIntBoolean;
+  is_tuesday: EIntBoolean;
+  is_wednesday: EIntBoolean;
+  is_thursday: EIntBoolean;
+  is_friday: EIntBoolean;
+  is_saturday: EIntBoolean;
+  is_sunday: EIntBoolean;
+  notification_time?: string;
+  should_show_time?: boolean;
+  image_url?: string;
+  status_text?: string;
+  offer_type?: OfferType;
+  establishment?: Venue;
+  start_date_time?: string;
+  end_date_time?: string;
+  can_share?: boolean;
+  is_user_favourite?: boolean;
+  is_voucher?: boolean;
+  shared_by_name?: string;
+};
+
+type OfferType = {
+  id: number;
+  title: string;
+  created_at: DateTime;
+  updated_at: DateTime;
+  deleted_at: string;
+};

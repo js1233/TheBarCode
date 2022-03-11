@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  nativeID="animatedComponent"
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#0F766E",
+      "borderRadius": 25,
+      "elevation": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "maxHeight": 55,
+      "minHeight": 44,
+      "opacity": 1,
+      "shadowColor": "#FFFFFF",
+      "shadowOffset": Object {
+        "height": 3,
+        "width": 0,
+      },
+      "shadowOpacity": 0.15,
+      "shadowRadius": 3,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "padding": 8,
+      }
+    }
+    testID="button-container"
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+          },
+          Object {
+            "flex": 1,
+          },
+          undefined,
+        ]
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "fontFamily": "ProximaNova-Regular",
+            },
+            Object {
+              "color": "#171717",
+              "fontSize": 27,
+            },
+            Object {
+              "lineHeight": 42,
+            },
+            Array [
+              Object {
+                "color": "#FFFFFF",
+                "fontSize": 28,
+                "overflow": "hidden",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;

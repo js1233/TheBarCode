@@ -1,0 +1,347 @@
+{
+  "id": 3705,
+  "user_id": 371,
+  "cart_id": 5606,
+  "establishment_id": 230,
+  "type": "dine_in",
+  "status": "pending",
+  "delivery_charges": null,
+  "discount": null,
+  "sub_total": 16,
+  "total": 26,
+  "table_no": 10,
+  "menu": [
+    {
+      "id": 2683060,
+      "plu": null,
+      "name": "Chicken Burger",
+      "image": "https://thebarcode-dev.cygnis.dev/storage/menus/SfbaIyRxXIU0LMIGza5NuA12dWUlXCPh5Tdm8ZP9.jpeg",
+      "price": 5,
+      "total": 5,
+      "quantity": 1,
+      "menu_type": "barcode",
+      "group_type": "single",
+      "segment_id": 356,
+      "description": "<br>",
+      "cart_item_id": 10254,
+      "establishment_id": 230,
+      "total_item_price": 5
+    },
+    {
+      "id": 2683061,
+      "plu": "1907",
+      "name": "The Pepporanni Pizza",
+      "price": 2.5,
+      "total": 3.5,
+      "quantity": 1,
+      "modifiers": [
+        {
+          "id": 2275,
+          "plu": "2275",
+          "name": "BBQ Ranch Sauce",
+          "price": 0.5,
+          "quantity": 2
+        },
+        {
+          "id": 4543,
+          "plu": "4543",
+          "name": "No Cheese",
+          "price": 0,
+          "quantity": 1
+        }
+      ],
+      "establishment_id": 230,
+      "total_item_price": 3
+    },
+    {
+      "id": 2685519,
+      "plu": null,
+      "name": "Bundle Deal",
+      "image": "https://thebarcode-dev.cygnis.dev/storage/menus/x3MOuIxrMfprr0aGFZ5OExpbdyc0SRFhUodVruQR.jpeg",
+      "price": 3,
+      "total": 4.5,
+      "quantity": 1,
+      "menu_type": "barcode",
+      "sub_menus": [
+        {
+          "id": "1907",
+          "name": "The Pepporanni Pizza",
+          "modifiers": [
+            {
+              "id": 2275,
+              "max": null,
+              "min": null,
+              "plu": "2275",
+              "name": "BBQ Ranch Sauce",
+              "type": "barcode",
+              "price": 0.5,
+              "multiply": null,
+              "quantity": 1,
+              "created_at": {
+                "date": "2021-06-15 08:00:50.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "deleted_at": null,
+              "product_id": 1907,
+              "updated_at": {
+                "date": "2021-09-09 08:47:43.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "description": "Spicy",
+              "modifier_id": "2275",
+              "delivery_tax": null,
+              "product_type": 0,
+              "establishment_id": 230,
+              "modifier_group_id": "764"
+            },
+            {
+              "id": 4544,
+              "max": null,
+              "min": null,
+              "plu": "4544",
+              "name": "Yes, Cheeeeese",
+              "type": "barcode",
+              "price": 1,
+              "multiply": null,
+              "quantity": 1,
+              "created_at": {
+                "date": "2021-09-07 12:08:45.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "deleted_at": null,
+              "product_id": 1907,
+              "updated_at": {
+                "date": "2021-09-09 08:45:50.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "description": null,
+              "modifier_id": "4544",
+              "delivery_tax": null,
+              "product_type": 0,
+              "establishment_id": 230,
+              "modifier_group_id": "1497"
+            }
+          ]
+        },
+        {
+          "id": "1908",
+          "name": "Coca Cola",
+          "modifiers": [
+            {
+              "id": 4547,
+              "max": null,
+              "min": null,
+              "plu": "4527",
+              "name": "No",
+              "type": "barcode",
+              "price": 0,
+              "multiply": null,
+              "quantity": 1,
+              "created_at": {
+                "date": "2021-09-07 12:11:01.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "deleted_at": null,
+              "product_id": 1908,
+              "updated_at": {
+                "date": "2021-09-07 12:11:01.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "description": null,
+              "modifier_id": "4527",
+              "delivery_tax": null,
+              "product_type": 0,
+              "establishment_id": 230,
+              "modifier_group_id": "1491"
+            }
+          ]
+        }
+      ],
+      "group_type": "bundle",
+      "segment_id": 947,
+      "description": "Buy Pizza and Cola and get discount of $ 1.00",
+      "cart_item_id": 10257,
+      "have_modifiers": true,
+      "establishment_id": 230,
+      "total_item_price": 4.5
+    },
+    {
+      "id": 2685565,
+      "plu": null,
+      "name": "Bundle Deal 1",
+      "image": "https://thebarcode-dev.cygnis.dev/storage/menus/pGCjtVJhGnoouMDN4Rf5bUaY0e2puDoa9HN2K6R6.jpeg",
+      "price": 2,
+      "total": 3,
+      "quantity": 1,
+      "menu_type": "barcode",
+      "sub_menus": [
+        {
+          "id": 1904,
+          "name": "Chicken Burger",
+          "modifiers": null
+        },
+        {
+          "id": 7840,
+          "name": "Red Bull",
+          "modifiers": null
+        },
+        {
+          "id": "7840",
+          "name": "Red Bull",
+          "modifiers": [
+            {
+              "id": 4526,
+              "max": null,
+              "min": null,
+              "plu": "4526",
+              "name": "Icy",
+              "type": "barcode",
+              "price": 1,
+              "multiply": null,
+              "quantity": 1,
+              "created_at": {
+                "date": "2021-09-06 13:06:39.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "deleted_at": null,
+              "product_id": 7840,
+              "updated_at": {
+                "date": "2021-09-09 08:47:07.000000",
+                "timezone": "Europe/London",
+                "timezone_type": 3
+              },
+              "description": null,
+              "modifier_id": "4526",
+              "delivery_tax": null,
+              "product_type": 0,
+              "establishment_id": 230,
+              "modifier_group_id": "1491"
+            }
+          ]
+        }
+      ],
+      "group_type": "bundle",
+      "segment_id": 947,
+      "description": "Bundle Deal 1",
+      "cart_item_id": 10264,
+      "have_modifiers": true,
+      "establishment_id": 230,
+      "total_item_price": 3
+    }
+  ],
+  "created_at": {
+    "date": "2021-09-14 07:30:44.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/London"
+  },
+  "updated_at": {
+    "date": "2021-09-14 07:31:08.000000",
+    "timezone_type": 3,
+    "timezone": "Europe/London"
+  },
+  "is_paid": 1,
+  "epos_type": "barcode",
+  "epos_order_id": null,
+  "contact_number": null,
+  "orkestro_id": null,
+  "deliver_by": "barcode",
+  "idempotency_key": null,
+  "squareup_order_version": null,
+  "source": "mobile",
+  "name": null,
+  "email": null,
+  "pares": null,
+  "is_payment_sense": 0,
+  "order_tip": 10,
+  "is_printed": 0,
+  "establishment": {
+    "id": 230,
+    "title": "Android Bar",
+    "is_global_delivery": 1,
+    "global_delivery_charges": 20,
+    "custom_delivery_amount": 0,
+    "min_delivery_charges": 0,
+    "max_delivery_charges": 0,
+    "delivery_condition": "delivery at your door steps",
+    "worldpay_client_key": "T_C_bb4b4fc9-15c3-4f9a-9690-660bb4885afb",
+    "location_id": null,
+    "square_app_id": "sandbox-sq0idb-pb9LiBBq20hVo9pfOPaWKg",
+    "payment_gateway_type": "worldpay",
+    "address": "London",
+    "payment_sense_jwt_token": null,
+    "payment_gateway_username": null,
+    "payment_gateway_password": null,
+    "dine_in": 1,
+    "take_away": 1,
+    "collection": 1,
+    "delivery": 1,
+    "contact_number": "+44 7911 123456",
+    "region": {
+      "country": "United Kingdom (UK)",
+      "currency_code": "GBP",
+      "currency_symbol": "£"
+    },
+    "logo_url": null
+  },
+  "customer": {
+    "id": 371,
+    "full_name": "Abdul Rehman Anis",
+    "contact_number": "0312222222"
+  },
+  "payment_split": [
+    {
+      "voucher": null,
+      "offer": {
+        "id": 3,
+        "type": "standard",
+        "text": "25% Member discount",
+        "value": 25,
+        "value_type": "percent",
+        "discount": 5
+      },
+      "id": 371,
+      "name": "Abdul Rehman Anis",
+      "amount": 12,
+      "order_tip": 10,
+      "split_type": null,
+      "amount_percent": null,
+      "discount": 4,
+      "status": "pending"
+    },
+    {
+      "voucher": null,
+      "offer": {
+        "id": 3,
+        "type": "standard",
+        "text": "25% Member discount",
+        "value": 25,
+        "value_type": "percent",
+        "discount": 5
+      },
+      "id": 372,
+      "name": "Talha Amin",
+      "amount": 12,
+      "split_type": null,
+      "amount_percent": null,
+      "discount": 4,
+      "status": "pending"
+    }
+  ],
+  "total_discount": 4,
+  "voucher": null,
+  "offer": {
+    "id": 3,
+    "type": "standard",
+    "text": "25% Member discount",
+    "value": 25,
+    "value_type": "percent",
+    "discount": 4
+  }
+}
