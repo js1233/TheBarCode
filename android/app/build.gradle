@@ -196,7 +196,7 @@ android {
         }
         applicationVariants.all { variant ->
             variant.outputs.all {
-                 outputFileName = "TBCRN-" + variant.versionName + "-" + formattedDate + ".apk"
+                 outputFileName = "release.apk"
             }
         }
     }
