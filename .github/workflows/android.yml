@@ -1,0 +1,19 @@
+name: Android
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js v12
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - run: yarn install
+
+      - run: yarn run clean && cd android && ./gradlew assembleRelease && cd ..
+        working-directory: android
+        name: Build Android apk (release)
