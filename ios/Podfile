@@ -9,7 +9,7 @@ pod 'react-native-google-maps', :path => rn_maps_path
 pod 'RNSquareInAppPayments', :path => '../node_modules/react-native-square-in-app-payments'
 pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
 
-target 'tbcRN' do
+target 'TheBarCode' do
   config = use_native_modules!
 
   use_react_native!(
@@ -29,7 +29,7 @@ target 'tbcRN' do
   pod 'OneSignal'
 
 
-  target 'tbcRNTests' do
+  target 'TheBarCodeTests' do
     inherit! :complete
     # Pods for testing
   end
