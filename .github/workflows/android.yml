@@ -16,3 +16,9 @@ jobs:
 
       - run: yarn run clean && cd android && ./gradlew assembleRelease && cd ..
         name: Build Android apk (release)
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
+        with:
+          name: app
+          path: android/app/build/outputs/apk/release
