@@ -9,10 +9,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: npm ci
-      - run: xcode-select -p
-      - run: pod install
-        working-directory: ios
+      - run: yarn install
+      - run: cd ios && pod install
         name: Install pod dependencies
       - name: Build iOS (debug)
         run: "xcodebuild \
