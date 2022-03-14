@@ -1,4 +1,4 @@
-name: iOS
+name: iOS OS
 on: [push, pull_request]
 jobs:
   build:
