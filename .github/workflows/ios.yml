@@ -9,11 +9,10 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: yarn install
-      - run: cd ios && pod install
+      - run: yarn install && cd ios && pod install
       - name: Build ipa for distribution
-      - run: cd ios
-          pod install
+      - run: cd ios &&
+          pod install &&
           xcodebuild build -workspace "TheBarCode.xcworkspace" -scheme "TheBarCode" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
       - name: Upload APK
         uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
