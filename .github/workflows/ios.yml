@@ -11,7 +11,7 @@ jobs:
           node-version: 14.x
       - run: yarn install && cd ios && pod install
         name: Build ipa for distribution
-      - run: cd ios && pod install && xcodebuild build -workspace "TheBarCode.xcworkspace" -scheme "TheBarCode" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+      - run: cd ios && pod install && xcodebuild clean archive -workspace TheBarCode/ios/TheBarCode.xcworkspace -scheme TheBarCode -archivePath Users/muzammil/Library/Developer/Xcode/Archives/2022-03-15/TheBarCode\ 15-03-2022\,\ 4.09\ PM.xcarchive | xcpretty
       # - name: Upload APK
       #   uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
       #   with:
