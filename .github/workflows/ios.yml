@@ -12,8 +12,8 @@ jobs:
       - run: yarn install && cd ios && pod install
         name: Build ipa for distribution
       - run: xcodebuild build -workspace "TheBarCode.xcworkspace" -scheme "TheBarCode"
-      - name: Upload IPA
-        uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
-        with:
-          name: app
-          path: $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      # - name: Upload APK
+      #   uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
+      #   with:
+      #     name: app
+      #     path: $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
