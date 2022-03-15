@@ -11,8 +11,9 @@ jobs:
           node-version: 14.x
       - run: yarn install && cd ios && pod install
         name: Build ipa for distribution
-      - run: cd ios && pod install && xcodebuild clean archive -workspace TheBarCode/ios/TheBarCode.xcworkspace -scheme TheBarCode -archivePath Users/muzammil/Library/Developer/Xcode/Archives/2022-03-15/TheBarCode\ 15-03-2022\,\ 4.09\ PM.xcarchive | xcpretty
-      # - name: Upload APK
+      - run:
+          cd ios && pod install &&  xcodebuild -project TheBarCode.xcodeproj -scheme "TheBarCode" -archivePath out/TheBarCode.xcarchive archive && xcodebuild -exportArchive -archivePath out/TheBarCode.xcarchive -exportPath out -exportOptionsPlist export.plist
+          # - name: Upload APK
       #   uses: actions/upload-artifact@v2-preview # This action will upload a build apk you can then test.
       #   with:
       #     name: app
