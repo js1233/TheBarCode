@@ -10,7 +10,7 @@ jobs:
         with:
           node-version: 14.x
       - run: yarn install && cd ios && pod install
-      - name: Build ipa for distribution
+        name: Build ipa for distribution
       - run: cd ios &&
           pod install &&
           xcodebuild build -workspace "TheBarCode.xcworkspace" -scheme "TheBarCode" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
