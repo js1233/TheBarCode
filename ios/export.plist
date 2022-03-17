@@ -1,12 +1,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
 <plist version="1.0">  
 <dict>  
-  <key>method</key> 
+  <key>method</key>  
+  <string>Possible values are app-store, validation, ad-hoc, package, enterprise, development, developer-id, and mac-application</string>
+  <key>provisioningProfiles</key>
   <dict>
       <key>App bundle id</key>
       <string>com.cygnismedia.thebarcodeapp</string>
   </dict>
   <key>signingCertificate</key>
-  <string>67278260-4839-BF60-6027-06702779640F</string>  
+  <string>08ca1cf0ee8e9000d24b420702ebeabc</string>  
 </dict>  
 </plist> 
